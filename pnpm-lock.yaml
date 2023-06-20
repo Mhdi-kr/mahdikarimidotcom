@@ -19,7 +19,6 @@ specifiers:
   next: 12.1.0
   postcss: ^8.4.6
   prismjs: ^1.27.0
-  rambda: ^7.0.2
   react: 17.0.2
   react-dom: 17.0.2
   reading-time: ^1.5.0
@@ -27,7 +26,6 @@ specifiers:
   typescript: 4.5.5
 
 dependencies:
-  '@types/markdown-it': 12.2.3
   gray-matter: 4.0.3
   lodash-es: 4.17.21
   markdown-it: 12.3.2
@@ -35,13 +33,13 @@ dependencies:
   marked: 4.3.0
   next: 12.1.0_sfoxds7t5ydpegc3knd667wn6m
   prismjs: 1.29.0
-  rambda: 7.5.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   reading-time: 1.5.0
 
 devDependencies:
   '@types/lodash-es': 4.17.7
+  '@types/markdown-it': 12.2.3
   '@types/marked': 4.3.1
   '@types/node': 17.0.18
   '@types/prismjs': 1.26.0
@@ -262,7 +260,7 @@ packages:
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
-    dev: false
+    dev: true
 
   /@types/lodash-es/4.17.7:
     resolution: {integrity: sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==}
@@ -279,7 +277,7 @@ packages:
     dependencies:
       '@types/linkify-it': 3.0.2
       '@types/mdurl': 1.0.2
-    dev: false
+    dev: true
 
   /@types/marked/4.3.1:
     resolution: {integrity: sha512-vSSbKZFbNktrQ15v7o1EaH78EbWV+sPQbPjHG+Cp8CaNcPFUEfjZ0Iml/V0bFDwsTlYe8o6XC5Hfdp91cqPV2g==}
@@ -287,7 +285,7 @@ packages:
 
   /@types/mdurl/1.0.2:
     resolution: {integrity: sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==}
-    dev: false
+    dev: true
 
   /@types/node/17.0.18:
     resolution: {integrity: sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==}
@@ -2159,10 +2157,6 @@ packages:
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
-
-  /rambda/7.5.0:
-    resolution: {integrity: sha512-y/M9weqWAH4iopRd7EHDEQQvpFPHj1AA3oHozE9tfITHUtTR7Z9PSlIRRG2l1GuW7sefC1cXFfIcF+cgnShdBA==}
-    dev: false
 
   /react-dom/17.0.2_react@17.0.2:
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
