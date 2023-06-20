@@ -8,7 +8,7 @@ export default function Contact() {
         </Head>
 
         <section>
-            <p>here's my email: Mhdi_kr@outlook.com, if you have any inquiry please do reach out.</p>
+            <p>here is my email: Mhdi_kr@outlook.com, if you have any inquiry please do reach out.</p>
         </section>
     </>
 }
