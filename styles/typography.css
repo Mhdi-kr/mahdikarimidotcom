@@ -3,7 +3,7 @@
 }
 
 h2 {
-    @apply text-3xl font-bold;
+    @apply text-3xl mb-4 font-bold;
 }
 
 h3 {
@@ -11,7 +11,7 @@ h3 {
 }
 
 p {
-    @apply text-lg font-light mb-4 leading-8 dark:text-zinc-300;
+    @apply text-lg font-light mb-4 leading-7 dark:text-zinc-300;
 }
 
 code {
@@ -22,4 +22,6 @@ article ul {
     @apply mb-4 text-base font-normal;
 }
 
-
+blockquote {
+    @apply border-l-2 border-zinc-100 pl-4 italic;
+}

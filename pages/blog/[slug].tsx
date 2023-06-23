@@ -6,9 +6,12 @@ import Head from "next/head";
 import { ParsedUrlQuery } from "querystring";
 import { useEffect } from "react";
 
+import dayjs from 'dayjs'
+
 import "prismjs/components/prism-c";
 import "prismjs/components/prism-cpp";
 import "prismjs/components/prism-bash";
+import "prismjs/components/prism-typescript";
 
 import { parseAllPosts } from "../../utils";
 import { IPost } from "../../interfaces/IPost";
@@ -63,9 +66,12 @@ export default function PostPage({
             <article>
                 <div className="mb-4">
                     <h2 className="capitalize mb-2">{post.frontmatter.title}</h2>
-                    <time className="text-neutral-400 block text-sm">
-                        Posted on {post.frontmatter.date}
-                    </time>
+                    <span className="text-neutral-400 block text-sm">
+                        <time className="mr-1">
+                            Posted on {dayjs(post.frontmatter.date).format('MMMM D, YYYY')},
+                        </time>
+                        <span>{post.timeToRead}</span>
+                    </span>
                 </div>
                 <div
                     className="subpixel-antialiased tracking-normal"
