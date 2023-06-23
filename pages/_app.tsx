@@ -48,7 +48,7 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
                         <ul className="text-center block w-full">
                             {
                                 navigationItems.map((link) =>
-                                    <Link key={link.title} passHref={true} href={`/${link.href}`}>
+                                    <Link key={link.title} passHref={true} href={`${link.href}`}>
                                         <li className="dark:bg-zinc-800 bg-zinc-50 transition-all dark:hover:bg-zinc-700 hover:shadow-md rounded mb-2 py-2 cursor-pointer">
                                             {link.title}
                                         </li>
