@@ -43,7 +43,7 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
             <section className="container px-4 md:px-4 lg:px-28 mx-auto flex flex-col w-full items-start">
                 <header className="w-full container py-8 px-4 flex items-center justify-center md:justify-between">
                     <section className="flex items-center md:flex-row flex-col gap-2 md:gap-4">
-                        <Image
+                        <img
                             role="img"
                             src="https://github.com/mhdi-kr.png"
                             height={128}
