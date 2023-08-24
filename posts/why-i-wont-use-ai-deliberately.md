@@ -1,7 +1,7 @@
 ---
 title: "why i won't deliberately use AI for programming"
 date: "2023/08/24"
-excerpt: "Potential causes, cures and possible solutions to developers' procrastination"
+excerpt: "Use AI for text-formatting, composing emails and other shallow tasks, but not for learning. learn it yourself."
 tags: "Life"
 show: true
 ---
