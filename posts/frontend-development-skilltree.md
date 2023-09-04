@@ -3,7 +3,7 @@ title: "[unfinished] Frontend Development Skilltree"
 date: "2021/12/05"
 excerpt: "Roadmaps are great but skilltrees are more realistic."
 tags: "Frontend"
-show: false
+show: true
 ---
 
 This repo is my honest endeavour to build a skill tree for frontend development. I'm trying to come up with a skill tree that is as broad as possible, but still as specific as possible.

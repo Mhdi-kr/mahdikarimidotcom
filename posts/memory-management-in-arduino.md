@@ -1,9 +1,9 @@
 ---
 title: "memory management in arduino"
-date: "2022/02/25"
+date: "2018/11/25"
 excerpt: "How to handle precious memory in embeded systems and MCUs"
 tags: "Embeded,C++"
-show: false
+show: true
 ---
 
 ### Random access memory types

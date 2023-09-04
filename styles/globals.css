@@ -7,5 +7,7 @@ html {
 }
 
 body {
-    @apply dark:bg-zinc-900 dark:text-gray-50;
+    @apply dark:bg-black dark:text-gray-50 overflow-y-scroll;
+    background-image: url(/noise.svg);
+    background-repeat: repeat;
 }
