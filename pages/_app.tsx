@@ -9,12 +9,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 function ApplicationRoot({ Component, pageProps }: AppProps) {
     const navigationItems = [
-        {
-            title: "Home",
-            href: "/",
-        },
         {
             title: "Blog",
             href: "/blog",
@@ -22,10 +20,6 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
         {
             title: "Talks",
             href: "/talks",
-        },
-        {
-            title: "Contact",
-            href: "/contact",
         },
         // TODO: add RSS feature
         // {
@@ -40,54 +34,92 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
                 data-domain="mahdikarimi.com"
                 src="https://plausible.robio.ir/js/script.js"
             />
-            <section className="container px-4 md:px-4 lg:px-28 mx-auto flex flex-col w-full items-start">
-                <header className="w-full container py-8 px-4 flex items-center justify-center md:justify-between">
-                    <section className="flex items-center md:flex-row flex-col gap-2 md:gap-4">
-                        <img
-                            role="img"
-                            src="https://github.com/mhdi-kr.png"
-                            height={128}
-                            width={128}
-                            alt="Mahdi Karimi - Software engineer"
-                            className="rounded-full"
-                        />
-                        <section className="text-center md:text-left">
-                            <h1 className="md:text-5xl font-bold">Mahdi Karimi</h1>
-                            <span className="md:text-3xl font-thin">Software Engineer</span>
+            <section className="container px-4 md:px-4 lg:px-60 mx-auto flex flex-col w-full items-start">
+                <header className="container w-full flex justify-between items-center p-8 font-lobster">
+                    <Link passHref={true} href="/">
+                        <section className="flex items-center md:flex-row flex-col gap-2 md:gap-4 cursor-pointer">
+                            <section className="text-center md:text-left">
+                                <h1 className="md:text-4xl text-gray-300 hover:text-white transition-colors">
+                                    Mahdi&apos;s Engineering
+                                </h1>
+                            </section>
                         </section>
-                    </section>
-                    <nav className="hidden md:block" role="navigation">
-                        <ul className="flex gap-3">
-                            {
-                                navigationItems.map((link) =>
-                                    <Link key={link.title} passHref={true} href={`${link.href}`}>
-                                        <li tabIndex={1} className="dark:bg-zinc-900 px-2 bg-zinc-50 transition-all dark:hover:bg-zinc-700 hover:shadow-md rounded mb-2 py-2 cursor-pointer">
+                    </Link>
+                    <section className="flex items-center">
+                        <nav className="hidden md:block" role="navigation">
+                            <ul className="flex gap-3">
+                                {navigationItems.map((link) => (
+                                    <Link
+                                        key={link.title}
+                                        passHref={true}
+                                        href={`${link.href}`}
+                                    >
+                                        <li
+                                            tabIndex={1}
+                                            className="cursor-pointer text-gray-400 hover:text-white transition text-xl"
+                                        >
                                             {link.title}
                                         </li>
                                     </Link>
-                                )
-                            }
-                        </ul>
-                    </nav>
+                                ))}
+                                <span>|</span>
+                                <li className="cursor-pointer text-gray-400 hover:text-white transition plausible-event-name=Github+click">
+                                    <a
+                                        href="https://github.com/Mhdi-kr"
+                                        rel="noreferrer"
+                                        target="_blank"
+                                    >
+                                        <FaGithub size={'24px'} />
+                                    </a>
+                                </li>
+                                <li className="cursor-pointer text-gray-400 hover:text-white transition plausible-event-name=Linkedin+click">
+                                    <a
+                                        href="https://www.linkedin.com/in/mhdi-kr/"
+                                        rel="noreferrer"
+                                        target="_blank"
+                                    >
+                                        <FaLinkedin size={'24px'} />
+                                    </a>
+                                </li>
+                                <li className="cursor-pointer text-gray-400 hover:text-white transition plausible-event-name=Twitter+click">
+                                    <a
+                                        href="https://twitter.com/mhdi_kr"
+                                        rel="noreferrer"
+                                        target="_blank"
+                                    >
+                                        <FaTwitter size={'24px'} />
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </section>
                 </header>
 
-                <main className="w-full container py-8 px-4">
+                <main className="w-full container p-8">
                     <Component {...pageProps} />
                 </main>
 
-                <nav className="flex md:hidden w-full items-center justify-center mb-3" role="navigation">
-                        <ul className="flex flex-col gap-3 w-full">
-                            {
-                                navigationItems.map((link) =>
-                                    <Link key={link.title} passHref={true} href={`${link.href}`}>
-                                        <li tabIndex={1} className="dark:bg-zinc-800 text-center p-2 w-full bg-zinc-50 transition-all dark:hover:bg-zinc-700 hover:shadow-md rounded cursor-pointer">
-                                            {link.title}
-                                        </li>
-                                    </Link>
-                                )
-                            }
-                        </ul>
-                    </nav>
+                <nav
+                    className="flex md:hidden w-full items-center justify-center mb-3"
+                    role="navigation"
+                >
+                    <ul className="flex flex-col gap-3 w-full">
+                        {navigationItems.map((link) => (
+                            <Link
+                                key={link.title}
+                                passHref={true}
+                                href={`${link.href}`}
+                            >
+                                <li
+                                    tabIndex={1}
+                                    className="dark:bg-gray-800 text-center p-2 w-full bg-gray-50 transition-all dark:hover:bg-gray-700 hover:shadow-md rounded cursor-pointer"
+                                >
+                                    {link.title}
+                                </li>
+                            </Link>
+                        ))}
+                    </ul>
+                </nav>
             </section>
         </>
     );

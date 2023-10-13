@@ -25,3 +25,19 @@ article ul {
 blockquote {
     @apply border-l-2 border-zinc-100 pl-4 italic;
 }
+
+.font-ranga {
+    font-family: 'Ranga', cursive;
+}
+
+.font-lobster {
+    font-family: 'Lobster', sans-serif;
+}
+
+.font-actor {
+    font-family: 'Actor', sans-serif;
+}
+
+ol {
+    @apply list-decimal pl-4 font-light mb-4 leading-7 dark:text-zinc-300;
+}
