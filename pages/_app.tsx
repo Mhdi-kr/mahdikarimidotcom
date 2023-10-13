@@ -32,7 +32,7 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
             <Script
                 defer
                 data-domain="mahdikarimi.com"
-                src="https://plausible.robio.ir/js/script.js"
+                src="https://plausible.robio.ir/js/script.tagged-events.js"
             />
             <section className="container px-4 md:px-4 lg:px-60 mx-auto flex flex-col w-full items-start">
                 <header className="container w-full flex justify-between items-center p-8 font-lobster">
