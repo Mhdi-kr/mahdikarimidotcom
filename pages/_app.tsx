@@ -95,7 +95,7 @@ function ApplicationRoot({ Component, pageProps }: AppProps) {
                     </section>
                 </header>
 
-                <main className="w-full container p-8">
+                <main className="w-full container md:p-8">
                     <Component {...pageProps} />
                 </main>
 
