@@ -6,7 +6,7 @@ I'm Mehdi, currently working as a senior software engineer at [`Alibaba Travels 
 
 I spend my working hours mentoring software engineers and architecting backend and machine learning solutions.
 
-In my off-time, I read computer sience related books, play the guitar (love the pantetonic scale and blues!) and I also write [here](/posts) sometimes.
+In my off-time, I read computer sience related books, play the guitar (love the pantetonic scale and blues!) and I also write [here](/blog) sometimes.
 
 ### Link Tree
 
