@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frontend on Mahdi&#39;s Engineering</title>
+    <link>http://localhost:3000/tags/frontend/</link>
+    <description>Recent content in Frontend on Mahdi&#39;s Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>mhdi_kr@outlook.com (Mahdi Karimi)</managingEditor>
+    <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
+    <copyright>Mahdi Karimi</copyright>
+    <lastBuildDate>Mon, 08 Aug 2022 01:47:16 +0330</lastBuildDate>
+    <atom:link href="http://localhost:3000/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>philosophy of software design in vue.js applications</title>
+      <link>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</link>
+      <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
+      <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
+<h3 id="complexity">Complexity</h3>
+<p>In the first and second sections, the book teaches us to fight complexity in our systems, we must take two important actions:</p>
+<p>Eliminate complexity by writing shorter and more obvious code
+Encapsulate complexity in components (or modules) so that other developers working on the project are not exposed to it all at once
+These points may seem obvious or trivial at first, but personally I&rsquo;ve seen engineers with all levels of expertise make the same mistakes over and over again (including myself!).</p>
+<p>So to tackle this problem we should first learn the definition, symptoms and the possible causes of complexity.</p>
+<h3 id="definition">Definition</h3>
+<p>“Complexity is anything related to the structure of a software system that makes it harder to understand or modify.”</p>
+<h3 id="symptoms">Symptoms</h3>
+<p>Complexity in software systems has 3 major symptoms:</p>
+<h4 id="change-amplification">Change amplification</h4>
+<p>“Change amplification means a seemingly simple change requires code modifications in many different places.”</p>
+<p>Meaning there are a lot of couplings in our system which breeds complexity.</p>
+<h4 id="cognitive-load">Cognitive load</h4>
+<p>“Cognitive load is measured by how much a developer needs to know in order to complete a task.”</p>
+<h4 id="unknown-unknowns">Unknown unknowns</h4>
+<p>“it’s not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.”</p>
+<p>Causes
+Now, what can actually cause those symptoms in our software systems? two major factors are to consider:</p>
+<p>Dependency
+A dependency exists when a given piece of code cannot be understood and modified in isolation. The code relates in some way to other code, and the other code must be considered and/or modified if the given code is changed.</p>
+<p>Obscurity
+Obscurity occurs when important information is not obvious.</p>
+<p>In JavaScript/TypeScript projects, non-existing JSDoc or using the “any” type all over the place are two examples of obscurity.</p>
+<p>Have you ever been in a situation when you were forced to read the low level implementation of a component just to know what props to pass to it or how something is handled inside? you’ve just experienced obscurity.</p>
+<p>Working Code is !enough
+There are 10 types of developers in this world. The ones who can read binary and the ones who can’t. Just kidding 😄.</p>
+<p>There are two types of developers, Tactical and strategic.</p>
+<p>Tactical
+Tactical programmers’ focus is to get something working as fast as possible, such as a new feature or a bug fix. The product managers and executives love them but this is exactly how systems eventually become complicated.</p>
+<p>Tactical developers’ mindset is the main cultural factor that brings about “Technical debt” in most cases.</p>
+<p>Strategic
+Strategic programmers realize that working code is not enough.</p>
+<p>Most of the code in any system is written by extending the existing codebase, so your most important job as a developer is to facilitate those future extensions.</p>
+<p>Strategic programmers do proactive or reactive investments. such as:</p>
+<p>Find a simple design for each new component
+Try a couple of alternative designs and pick the cleanest one
+Try to imagine a few ways in which the system might need to be changed in the future and make sure that will be easy with your design
+Write a good documentation
+When you discover a design problem, don’t just ignore it or patch around it
+We should strive to be a little more strategic and a little less tactical in our careers.</p>
+<p>Module depth
+Each module or component has two parts = an interface and an implementation.</p>
+<p>The best modules are the ones whose interfaces are much simpler than their implementations.</p>
+<p>This is exactly where “breaking code to smaller parts” can actually make our architecture worse, because the benefits provided by shallow modules are negated by the cost of learning and using their interfaces.</p>
+<p>Interfaces should be designed to make usage of the common case as simple as possible (KISS).</p>
+<p>Hiding information, or leaking it!
+Each component should encapsulate a few pieces of knowledge, which represent design decisions. The knowledge is embedded in the component’s implementation but does not appear on its interface, so it is not visible to other modules.</p>
+<p>Information leakage occurs when a design decision is reflected in multiple components. This creates a dependency between the components. Also, if a piece of information is reflected in the interface for a component, then by definition it has been leaked.</p>
+<p>JSON interface does not tell us how it does parsing or stringifying. It hides that knowledge and just does it for us.</p>
+<p>Different Layer, Different Abstraction
+If a system consists of adjacent layers with similar abstractions, this suggests a problem with the class decomposition.</p>
+<p>Pass-through variables
+Imagine you have a long chain of methods and a variable is passing down through it. This variable creates complexity because it forces all the links in that chain to be aware of its existence, even if one of them doesn’t use it.</p>
+<p>Even worse, let’s say you want to modify the implementation or type of that variable, You need to change all those methods which that variable is passed to (change amplification) or if a new variable comes into play you have to make sure the path that variable traverses is correct and expected.</p>
+<p>An example of pass-through variables in Vue.js is props usage.</p>
+<p>A quick example of prop drilling in a hypothetical to-do list application
+In the example above, we are passing a dynamic URL that we need to post a payload to whenever we check something in our to-do list. Let’s suppose we only have access to that URL in the root index.vue file so we can’t just hardcode that in the TaskItem.vue file so we are forced to pass it down the component tree like that.</p>
+<p>Now imagine if requirements change, in that case we need to change 3 places to accomplish one thing!</p>
+<p>Pass-through functions
+Methods that do little except invoke other methods, whose signatures are similar or identical, are shallower as they increase the interface complexity of the class, but they don’t increase the total functionality of the system. They indicate that there is confusion over the division of responsibility between classes/components.</p>
+<p>Interface of a class should normally be different from its implementation = the representations used internally should be different from the abstractions that appear in the interface.</p>
+<p>Better Together Or Better Apart
+One of the most fundamental questions in software design = given two pieces of functionality, should they be implemented together in the same place, or should their implementations be separated?</p>
+<p>Subdividing components can result in:</p>
+<p>The more the number of components is, the harder it is to keep track of them all (more hassle because of more moving pieces)
+Additional code to manage the components
+Separation makes it harder to see the components at the same time, or even be aware of their existence (increasing unknown unknowns).
+Code duplication
+A few indications that two pieces of code are related are:</p>
+<p>They share information
+They are used together (only compelling if bidirectional)
+They overlap conceptually
+It’s hard to understand one of the pieces of code without looking at the other.
+We should:</p>
+<p>Bring together if information is shared.
+Bring together if it will simplify the interface.
+Bring together to eliminate duplication.
+Separate general-purpose and special-purpose code. Failing to do so is usually a red flag.
+In Vue 3, there’s this concept of composition API that we can use to easily use other Vue primitives that we already know and love such as computed properties, refs and reactives, watchers and lifecycle hooks in one place and use it everywhere we like.</p>
+<p>useTodos.ts composable gathering all logic in one place
+What we did here is that we gathered the logic and state spreading through 3 different components in one single file. we can import this file and use what it returns like any other module and even if requirements change in the future, we only need to change one file!</p>
+<p>Pull Complexity Downwards</p>
+<p>It’s more important for a module to have a simple interface than a simple implementation (as also said above).</p>
+<p>We should try to do complicated tasks in the inner layers and do more general things in the outer layers. This reduces cognitive load for others because we are creating modules with more functionality and simpler interfaces which is the textbook definition of “deeper modules”.</p>
+<p>Define Errors Out Of Existence
+The exceptions thrown by a class are part of its interface. Classes with lots of exceptions have complex interfaces, and they are shallower than classes with fewer exceptions.</p>
+<p>Exception handling is one of the worse sources of complexity in software systems.</p>
+<p>Exception handling code is inherently more difficult to write than normal-case code. Furthermore, it creates opportunities for more exceptions.
+It’s difficult to ensure that exception handling code really works. Some exceptions can’t easily be generated in a test environment.
+Code that hasn’t been executed doesn’t work.</p>
+<p>The best way to eliminate exception handling complexity is to define your APIs so that there are no exceptions to handle.</p>
+<p>Exception masking
+Reduce the number of places where exceptions must be handled.</p>
+<p>Exception aggregation
+Handle many exceptions with a single piece of code. Exception aggregation works best if an exception propagates several levels up the stack before it is handled. This allows more exceptions from more methods to be handled in the same place.</p>
+<p>This is the opposite of exception masking, masking usually works best if an exception is handled in a low-level method. For masking, the low-level method is typically a library method used by many other methods, so allowing the exception to propagate would increase the number of places where it is handled.</p>
+<p>Masking and aggregation are similar in that both approaches position an exception handler where it can catch the most exceptions, eliminating many handlers that would otherwise need to be created.</p>
+<p>Just crash when it makes sense to do so. By the same token, it also makes sense to define other special cases out of existence.</p>
+<p>Design it Twice
+Designing software is hard, so it’s unlikely that your first thoughts about how to structure a module or system will produce the best design. You’ll end up with a much better result if you consider multiple options for each major design decision.</p>
+<p>Writing better comments
+There are a lot of excuses for not commenting in any code base such as:</p>
+<p>Good code is self-documenting.
+I don’t have time to write comments.
+Comments get out of date and become misleading.
+The comments I have seen are all worthless. Why bother?
+All of these excuses are debunked in the book.</p>
+<p>Good documentation helps with two of three ways in which complexity manifests itself in software systems = cognitive load and unknown unknowns.</p>
+<p>Comments should decrease obscurity
+Consider the following points:</p>
+<p>Decide on conventions for commenting.
+Don’t repeat the code. Comments at the same level of details as the code is not useful and a red flag. Ask yourself a question “could someone who has never seen the code write the comment just by looking at the code next to the comment?”. If the answer is yes, the comment is not useful.
+Comments augment the code by providing information at a different level of detail, low-level comments add precision, high-level comments offer intuition.
+If interface comments must also describe the implementation, then the class/method is shallow.
+Delayed comments are bad comments, write the comments first.
+Comments are a design tool. Comments serve as a canary in the coal mine of complexity. If a method or variable requires a long comment, it is a red flag that you don’t have a good abstraction.
+Early comments are fun comments, Early comments are not really too expensive.
+Choosing Names
+Good names are a form of documentation/abstraction. Good names have two properties, precision and consistency.</p>
+<p>Consistency
+Always use the common name for the given purpose. Never use the common name for anything other than the given purpose. Make sure that the purpose is narrow enough that all variables with the name have the same behavior.</p>
+<p>The greater the distance between a name’s declaration and its uses, the longer the name should be.</p>
+<p>Precision
+Vague names are a red flag. It’s fine to use generic names like i and j in a loop. But if the loop gets so long that you can&rsquo;t see it all at once, then a more descriptive name is in order. Also avoid names that are too specific. - If you find it difficult to come up with a name for a particular variable that is precise, intuitive, and not too long, it suggests that the variable may not have a clear definition or purpose.</p>
+<p>Consistency
+Consistency creates cognitive leverage, once you have learned how something is done in one place, you can use that knowledge to immediately understand other places that use the same approach. Examples include names, coding style, interfaces, design pattern, and invariants.</p>
+<p>Document the most important overall conventions. Enforce conventions with automated tools (like ESLint) to check for violations.</p>
+<p>Don’t change existing conventions. Having a “better idea” is not a sufficient excuse to introduce inconsistencies. The value of consistency over inconsistency is almost always greater than the value of one approach over another.</p>
+<p>Like the saying goes:</p>
+<p>When in Rome, do as the Romans do.</p>
+<p>Code Should Be Obvious
+Software should be designed for ease of reading, not ease of writing.</p>
+<p>Things that make code more obvious:</p>
+<p>Choosing good names (as mentioned above)
+Consistency (as mentioned above)
+General-purpose techniques such as white space or comments.
+Things that make code less obvious:</p>
+<p>Event-driven programming
+Generic containers
+Different types for declaration and allocation
+Code that violates reader expectations
+One of the bad practices in Vue is handling business logic and state mutation in watchers. Watchers or watchEffect should be implemented in a “fire and forget” manner. Also using provide and inject can potentially be not obvious. use these tools wisely.</p>
+<p>We’ve covered key concepts discussed in the book. now as a bonus let’s see how SOLID principles relate to our readings above!</p>
+<p>SOLID Vue</p>
+<ol>
+<li>S for “Single-responsibility principle”
+The idea behind the SRP is that every class, component, module or function in a program should only have one responsibility. As a commonly used definition we can say = “every component should have only one reason to change”.</li>
+</ol>
+<p>Your components need to do one thing and if you want multiple thing happens you should compose them so that a reader understands “oh this a component that gathers 3 other components that only do one thing, so it should only be able to do 3 things!”</p>
+<p>Be cautious if you have a component that imperatively does a lot of different things at once.</p>
+<p>A great example of SRP is tailwind CSS, A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</p>
+<p>Great thing about tailwind that everyone loves is that it is consistent and composable so you can throw as many classes to a div as you’d like and be sure that the end result will be a combination of the classes and non of these classes are implicitly overriding each other’s styles.</p>
+<ol start="2">
+<li>O for “Open–closed principle”
+The open-closed principle states that software entities should be open for extension, but closed for modification.</li>
+</ol>
+<p>Slots are great examples of how we can Facilitate extensions in Vue. Slots will help us extend our components with any template we want and in the same time keeping our state inside!</p>
+<p>In computer programming, as soon as you introduce a “state” you are responsible for its existence and side effects. Always ask yourself “what changes my states?”. Always have a “state machine” in your mind that handles every expected behavior or unexpected errors. This is how we can make sure we are closed for modification.</p>
+<ol start="3">
+<li>L for “Liskov substitution principle”
+Personally I don’t think we get to see a lot of LSP in the Vue ecosystem because I assume there aren’t a lot of companies or teams that are using class components, but anyways, here’s the description!</li>
+</ol>
+<p>The “Liskov substitution principle” simply implies that when an instance of a class/component is passed or extended to another class/component, the inheriting class should have a use case for all the properties and behavior of the inherited class.</p>
+<ol start="4">
+<li>I for “Interface segregation principle”
+The interface segregation principle states that the interface of a program should be split in a way that the user/client would only have access to the necessary methods related to their needs.</li>
+</ol>
+<p>This is kind of related to the first principle (SRP) and this is closely related to deep modules concept discussed at in first sections of this article. It is important when designing prop interfaces and how components interact with each other.</p>
+<ol start="5">
+<li>D for “Dependency inversion”
+High-level modules should not import anything from low-level modules. Both should depend on abstractions.</li>
+</ol>
+<p>Let me show you an example in Vue = loose coupling between backend APIs and component props.</p>
+<p>Never let your backend API properties define your components’ props, instead conclude an interface that satisfies both APIs, UI and application requirements simultaneously, then use a map function to transform the API data so that in complies to the interface.</p>
+<p>This way if API or requirements change, you only alter the mapping implementation and all the component tree will be untouched!</p>
+<p>This method of thinking is inconvenient and takes more time to develop at first but this is an investment for future changes.</p>
+<p>At last we should consider not obsessing about all the rules said above. There are technical debts to overcome deadlines etc. but we should strive for fundamentals and learning them because we will subconsciously be better programmers in the end.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>maintaining my statically generated tech blog</title>
+      <link>http://localhost:3000/posts/maintaining-my-static-blog/</link>
+      <pubDate>Mon, 14 Mar 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/posts/maintaining-my-static-blog/</guid>
+      <description>How I manage to maintain this blog using Notion, Next.js and Github Pages</description>
+      <content:encoded><![CDATA[<h3 id="my-story">My story</h3>
+<p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination">but never actually put the time in to get it done</a>.
+Creating meaningful blog posts is not an easy task, might as well have systems and tools in place helping us do it faster and easier.</p>
+<p>I tried many different ways and flavors of blogging. Wordpress was heavyweight and clunky, Medium or other micro-blogging services did not just feel <em>right</em> to me. Naturally as a web developer, I wanted to have something of my own and make it from scratch.</p>
+<h3 id="github-pages">Github pages</h3>
+<p>I made a repository on Github to host all of the code needed for the blog. Then used the Github pages free service to serve the HTML files available on the repo.</p>
+<p>As a cherry on top, you can use Cloudflare&rsquo;s free services to point the <code>YOUR_USR.github.io/YOUR_REPO</code> to your custom domain <code>YOUR_DOMAIN.co.uk</code> for example.</p>
+<p>That&rsquo;s exactly what I did to <code>Mahdikarimi.com</code> and pointed it to <code>mhdi-kr.github.io/personal-blog</code> using Cloudflare and my domain provider settings.</p>
+<h3 id="nextjs-filesystems-and-markdown-parsers">Next.js, Filesystems and Markdown parsers</h3>
+<p>This website was built upon the Next.js React framework. I&rsquo;ve developed React components layout and stylings. The actual content of the blog posts are written in Markdown format in a specific directory inside the repo.</p>
+<p>Next.js allows you to acess filesystems in serverside configuration using the <code>fs</code> object available in Node js.
+The <code>getStaticProps</code> function is called by Next.js when the page is first loaded. It is then used to fetch the markdown content using Nodejs filesystem.</p>
+<p>After fetching the actual content as strings we need to parse it using a Markdown parser and pass it onto the components as state props for react to do its magic.</p>
+<h3 id="sky-is-the-limit">Sky is the limit!</h3>
+<p>You can do all sorts of cool things with Markdown files! You can hide any metadata inside it files called <em>Frontmatter</em>. Your markdown parser will provide it to you and you can use it to embed dates, tags or arbitrary static state in your blog posts!</p>
+<p>Using that state in React, you can conditionally hide/show your posts, render tags or dates, etc! Sky&rsquo;s the limit.</p>
+<h3 id="generating-static-html-css-and-js-files">Generating static HTML, CSS and JS files</h3>
+<p>By using the <code>next export</code> command in the terminal, we can render all the HTML, CSS and JS files we need for the website to be up and running without a runtime in the <code>/out</code> directory. This is great because this is all we need for Github pages!</p>
+<h3 id="publishing-changes-without-hassle">Publishing changes without hassle</h3>
+<p>Let&rsquo;s publish the generated files to Github Pages. I use the <code>gh-pages</code> CLI utility,<a href="https://www.npmjs.com/package/gh-pages"> available on NPM</a>, to publish the static files to a specific branch.</p>
+<p>Github automatically detects push-events to this branch and then deploys my newly created HTML and assets files to the web!</p>
+<h3 id="all-in-one-go">All in one go!</h3>
+<p>You can aggergate all the steps I talked about in one single command, or even register it as a NPM command to run every time you want to publish your blog.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="ln">1</span><span class="cl">
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ yarn build <span class="o">&amp;&amp;</span> yarn <span class="nb">export</span> <span class="o">&amp;&amp;</span> touch out/.nojekyll <span class="o">&amp;&amp;</span> gh-pages -t -d out</span></span></code></pre></div><h3 id="handling-comments">Handling comments</h3>
+<p>Any form of content creation requires a feedback loop to bring value to its users as well as authors.</p>
+<p>The problem with Github pages for handling comments is that everything is static. You don&rsquo;t have access to a database on it to be able to do CRUD operations.</p>
+<p>Of course there are workarounds for those kinds of tasks but I wanted something elegant and fast. This is where utterances comes into play.</p>
+<p>With utterances Github app you can have fully functional comment section in your posts! It uses Github issues under the hood and I could easily integrated this with React.</p>
+<p>Make sure you <a href="https://utteranc.es/">checkout their documentation for more details!</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>[unfinished] Frontend Development Skilltree</title>
+      <link>http://localhost:3000/posts/frontend-development-skilltree/</link>
+      <pubDate>Sun, 05 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/posts/frontend-development-skilltree/</guid>
+      <description>Roadmaps are great but skilltrees are more realistic.</description>
+      <content:encoded><![CDATA[<p>This repo is my honest endeavour to build a skill tree for frontend development. I&rsquo;m trying to come up with a skill tree that is as broad as possible, but still as specific as possible.</p>
+<p>Road maps are great for describing the order of steps taken in a project or a tutorial, but real life does not work like that in my opinion, for example in the infamous web development road map repo there&rsquo;s git and source control step in the very beginning of the road map.</p>
+<p>my real life did not start with git! I started web development messing around with pure HTML. not even a single line of js code was written! I did not consider myself proficient in git until my second or third job! so I think those do not represent my real life.</p>
+<p>In my opinion real life is much more like a tree, where you can go from a root node to any leaf node if you wanted! you can choose to learn a little bit HTML and css and decide to go and learn more about js without anyone forcing you to learn git (or any arbitrary technology) first.</p>
+<p>This is less overwhelming, and I think that&rsquo;s the value I want to bring to people with this repo.</p>
+<p>tired of learning about react hooks or redux? why don&rsquo;t you hop onto CSS and animations to spice things up?</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>[unfinished] Webassembly, whats whys and hows</title>
+      <link>http://localhost:3000/posts/introduction-to-web-assembly/</link>
+      <pubDate>Tue, 23 Nov 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/posts/introduction-to-web-assembly/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+  </channel>
+</rss>

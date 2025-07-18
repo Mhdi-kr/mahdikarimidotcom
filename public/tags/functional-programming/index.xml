@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Functional Programming on Mahdi&#39;s Engineering</title>
+    <link>http://localhost:3000/tags/functional-programming/</link>
+    <description>Recent content in Functional Programming on Mahdi&#39;s Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>mhdi_kr@outlook.com (Mahdi Karimi)</managingEditor>
+    <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
+    <copyright>Mahdi Karimi</copyright>
+    <lastBuildDate>Wed, 03 May 2023 01:47:16 +0330</lastBuildDate>
+    <atom:link href="http://localhost:3000/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>understanding declarative javascript using monads</title>
+      <link>http://localhost:3000/posts/understanding-declarative-javascript-using-monads/</link>
+      <pubDate>Wed, 03 May 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/posts/understanding-declarative-javascript-using-monads/</guid>
+      <description>Monads in the simplest terms</description>
+      <content:encoded><![CDATA[<p>As software engineers, a significant part of our work involves creating data pipelines where several steps involve initializing and converting values based on different data sources. However, handling exceptions and potential errors at each step can quickly make the code hard to follow and nested. In this article, we explore how the Maybe monad can help simplify data pipelines and improve code readability.</p>
+<h3 id="the-problem">The problem</h3>
+<p>Let&rsquo;s consider the following scenario in a microblogging application = we want to determine the number of likes the first comment of a post has. The code might look like this:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln">1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="kr">const</span> <span class="nx">postObject</span> <span class="o">=</span> <span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">(</span><span class="mi">34</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="kr">const</span> <span class="nx">postComments</span> <span class="o">=</span> <span class="nx">postObject</span><span class="p">.</span><span class="nx">comments</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="kr">const</span> <span class="nx">firstComment</span> <span class="o">=</span> <span class="nx">postComments</span><span class="p">.</span><span class="nx">first</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">firstComment</span><span class="p">.</span><span class="nx">likes</span><span class="p">;</span></span></span></code></pre></div><p>In this seemingly simple example, several things can go wrong, such as database connection issues, not finding the specific post, absence of any posts, or no comments or likes on the post. To ensure robustness, we need to handle exceptions and errors at each step.</p>
+<h3 id="the-imperative-approach">The Imperative Approach</h3>
+<p>To handle errors and exceptions, we often resort to nested if statements and try-catch blocks. However, this approach quickly becomes complex and hard to manage. Here&rsquo;s an example of the imperative approach to handle errors in the code:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="kr">const</span> <span class="nx">postObject</span> <span class="o">=</span> <span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">(</span><span class="mi">34</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">postObject</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">        <span class="kr">const</span> <span class="nx">postComments</span> <span class="o">=</span> <span class="nx">postObject</span><span class="p">.</span><span class="nx">comments</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">postComments</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">            <span class="kr">const</span> <span class="nx">firstComment</span> <span class="o">=</span> <span class="nx">postComments</span><span class="p">.</span><span class="nx">first</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">            <span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">firstComment</span><span class="p">.</span><span class="nx">likes</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">numberOfLikes</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="k">return</span> <span class="nx">numberOfLikes</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">            <span class="k">else</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="k">throw</span> <span class="nx">e</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="p">}</span></span></span></code></pre></div><p>As we can see, the code becomes convoluted and harder to follow as we add more steps that depend on previous ones. This mixing of implementation details with data operations leads to decreased code readability and maintainability.</p>
+<h3 id="the-maybe-monad">The Maybe Monad</h3>
+<p>To simplify the handling of complex data pipelines, we can utilize the Maybe monad. A monad is a design pattern that abstracts the pipeline implementation by wrapping a value with a specific type. In this case, we&rsquo;ll create a class called &ldquo;Maybe&rdquo; that encapsulates the value and provides a bind method for chaining operations.</p>
+<p>Here&rsquo;s the definition of the Maybe class and its bind method:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kr">class</span> <span class="nx">Maybe</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="nx">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="nx">constructor</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="nx">bind</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">func</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">        <span class="kr">const</span> <span class="nx">newValue</span> <span class="o">=</span> <span class="nx">func</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="c1">// here we can decide to do anything with our data
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>        <span class="c1">// we can implement all sorts of gaurds, exceptions handlers here
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="nx">Maybe</span><span class="p">(</span><span class="nx">newValue</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="p">}</span></span></span></code></pre></div><h3 id="refactoring-with-the-maybe-monad">Refactoring with the Maybe Monad</h3>
+<p>Using the Maybe monad, we can rewrite the previous code in a more concise and readable manner:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln">1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">Maybe</span><span class="p">(</span><span class="nx">postId</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">post</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">post</span><span class="p">.</span><span class="nx">comments</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">comments</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">comments</span><span class="p">.</span><span class="nx">first</span><span class="p">())</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">comment</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">comment</span><span class="p">.</span><span class="nx">likes</span><span class="p">);</span></span></span></code></pre></div><p>By leveraging the bind method of the Maybe monad, we can chain the data operations while encapsulating error handling and exception management within the Maybe class itself. This abstraction allows us to focus on the core logic of the data pipeline, improving code readability and maintainability.</p>
+<p>Monads, such as the Maybe monad, provide a design pattern that simplifies the handling of data pipelines by abstracting the implementation details and encapsulating values within a specific type. By separating the core logic from error.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
