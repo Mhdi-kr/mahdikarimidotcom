@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" />
+<title>maintaining my statically generated tech blog | Mahdi&#39;s Engineering</title>
+<meta name="title" content="maintaining my statically generated tech blog" />
+<meta name="description" content="How I manage to maintain this blog using Notion, Next.js and Github Pages" />
+<meta name="author" content="" />
+<meta name="keywords" content="frontend," />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="maintaining my statically generated tech blog" />
+<meta property="og:description" content="How I manage to maintain this blog using Notion, Next.js and Github Pages" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:3000/blog/maintaining-my-static-blog/" />
+
+<meta property="og:image" content="http://localhost:3000/images/social_card_bg_hu_4e6379eb2fac7e61.webp"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-03-14T01:47:16+03:30" />
+<meta property="article:modified_time" content="2022-03-14T01:47:16+03:30" /><meta property="og:site_name" content="Mehdi&#39;s Engineering" />
+<meta property="fb:admins" content="0000000000" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:3000/images/social_card_bg_hu_4e6379eb2fac7e61.webp"/>
+<meta name="twitter:title" content="maintaining my statically generated tech blog"/>
+<meta name="twitter:description" content="How I manage to maintain this blog using Notion, Next.js and Github Pages"/>
+<meta name="twitter:site" content="@mhdi_kr"/>
+
+
+
+<meta itemprop="name" content="maintaining my statically generated tech blog">
+<meta itemprop="description" content="How I manage to maintain this blog using Notion, Next.js and Github Pages"><meta itemprop="datePublished" content="2022-03-14T01:47:16+03:30" />
+<meta itemprop="dateModified" content="2022-03-14T01:47:16+03:30" />
+<meta itemprop="wordCount" content="613">
+
+<meta itemprop="image" content="http://localhost:3000/images/social_card_bg_hu_4e6379eb2fac7e61.webp"/>
+
+
+<meta itemprop="keywords" content="frontend," />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+    
+    <link href="/syntax.min.css" rel="stylesheet">
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>Mahdi&#39;s Engineering</h1></a>
+<nav>
+<a href='http://localhost:3000/'>Home</a>
+<a href='http://localhost:3000/blog'>Blog</a>
+<a href='http://localhost:3000/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>maintaining my statically generated tech blog</h1>
+<p class="byline">
+  <time datetime='2022-03-14' pubdate>
+    2022-03-14
+  </time>
+  
+</p>
+
+<content>
+  <h3 id="my-story">My story</h3>
+<p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination/">but never actually put the time in to get it done</a>.
+Creating meaningful blog posts is not an easy task, might as well have systems and tools in place helping us do it faster and easier.</p>
+<p>I tried many different ways and flavors of blogging. Wordpress was heavyweight and clunky, Medium or other micro-blogging services did not just feel <em>right</em> to me. Naturally as a web developer, I wanted to have something of my own and make it from scratch.</p>
+<h3 id="github-pages">Github pages</h3>
+<p>I made a repository on Github to host all of the code needed for the blog. Then used the Github pages free service to serve the HTML files available on the repo.</p>
+<p>As a cherry on top, you can use Cloudflare&rsquo;s free services to point the <code>YOUR_USR.github.io/YOUR_REPO</code> to your custom domain <code>YOUR_DOMAIN.co.uk</code> for example.</p>
+<p>That&rsquo;s exactly what I did to <code>Mahdikarimi.com</code> and pointed it to <code>mhdi-kr.github.io/personal-blog</code> using Cloudflare and my domain provider settings.</p>
+<h3 id="nextjs-filesystems-and-markdown-parsers">Next.js, Filesystems and Markdown parsers</h3>
+<p>This website was built upon the Next.js React framework. I&rsquo;ve developed React components layout and stylings. The actual content of the blog posts are written in Markdown format in a specific directory inside the repo.</p>
+<p>Next.js allows you to acess filesystems in serverside configuration using the <code>fs</code> object available in Node js.
+The <code>getStaticProps</code> function is called by Next.js when the page is first loaded. It is then used to fetch the markdown content using Nodejs filesystem.</p>
+<p>After fetching the actual content as strings we need to parse it using a Markdown parser and pass it onto the components as state props for react to do its magic.</p>
+<h3 id="sky-is-the-limit">Sky is the limit!</h3>
+<p>You can do all sorts of cool things with Markdown files! You can hide any metadata inside it files called <em>Frontmatter</em>. Your markdown parser will provide it to you and you can use it to embed dates, tags or arbitrary static state in your blog posts!</p>
+<p>Using that state in React, you can conditionally hide/show your posts, render tags or dates, etc! Sky&rsquo;s the limit.</p>
+<h3 id="generating-static-html-css-and-js-files">Generating static HTML, CSS and JS files</h3>
+<p>By using the <code>next export</code> command in the terminal, we can render all the HTML, CSS and JS files we need for the website to be up and running without a runtime in the <code>/out</code> directory. This is great because this is all we need for Github pages!</p>
+<h3 id="publishing-changes-without-hassle">Publishing changes without hassle</h3>
+<p>Let&rsquo;s publish the generated files to Github Pages. I use the <code>gh-pages</code> CLI utility,<a href="https://www.npmjs.com/package/gh-pages"> available on NPM</a>, to publish the static files to a specific branch.</p>
+<p>Github automatically detects push-events to this branch and then deploys my newly created HTML and assets files to the web!</p>
+<h3 id="all-in-one-go">All in one go!</h3>
+<p>You can aggergate all the steps I talked about in one single command, or even register it as a NPM command to run every time you want to publish your blog.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="ln">1</span><span class="cl">
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ yarn build <span class="o">&amp;&amp;</span> yarn <span class="nb">export</span> <span class="o">&amp;&amp;</span> touch out/.nojekyll <span class="o">&amp;&amp;</span> gh-pages -t -d out</span></span></code></pre></div><h3 id="handling-comments">Handling comments</h3>
+<p>Any form of content creation requires a feedback loop to bring value to its users as well as authors.</p>
+<p>The problem with Github pages for handling comments is that everything is static. You don&rsquo;t have access to a database on it to be able to do CRUD operations.</p>
+<p>Of course there are workarounds for those kinds of tasks but I wanted something elegant and fast. This is where utterances comes into play.</p>
+<p>With utterances Github app you can have fully functional comment section in your posts! It uses Github issues under the hood and I could easily integrated this with React.</p>
+<p>Make sure you <a href="https://utteranc.es/">checkout their documentation for more details!</a></p>
+
+</content>
+<p>
+  
+    <a class="blog-tags" href="/tags/frontend/">#frontend</a>
+  
+</p>
+
+
+  <p>
+    <a href='mailto:mhdi_kr@outlook.com?subject=Reply%20to%20"maintaining%20my%20statically%20generated%20tech%20blog"'>
+      Reply to this post by email ↪
+    </a>
+  </p>
+
+
+
+  </main>
+  <footer><small>
+  Mahdi Karimi | since 2018
+</small></footer>
+
+    
+</body>
+
+</html>

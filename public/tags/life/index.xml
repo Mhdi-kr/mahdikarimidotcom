@@ -13,9 +13,9 @@
     <atom:link href="http://localhost:3000/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>overcoming the fear of forgetting what you read</title>
-      <link>http://localhost:3000/posts/being-afraid-about-losing-knowledge/</link>
+      <link>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</link>
       <pubDate>Thu, 17 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/being-afraid-about-losing-knowledge/</guid>
+      <guid>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;“I cannot remember the books I&amp;rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When I read books, especially those on technology and psychology subjects (I&amp;rsquo;m not much into fiction), I often find myself wondering, &amp;ldquo;Why am I reading this if I&amp;rsquo;ll forget most of it later?&amp;rdquo;. This thought can be discouraging because our human brains tend to evaluate my daily activities based on the rewards I expect from getting them done.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>“I cannot remember the books I&rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson</p></blockquote>
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>Developing self-confidence as a software engineer</title>
-      <link>http://localhost:3000/posts/devevloping-confidence-as-a-software-engineer/</link>
+      <link>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</link>
       <pubDate>Wed, 22 Nov 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/devevloping-confidence-as-a-software-engineer/</guid>
+      <guid>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</guid>
       <description>&lt;h2 id=&#34;laying-down-the-knowledge-foundation&#34;&gt;Laying down the knowledge foundation&lt;/h2&gt;&#xA;&lt;p&gt;Understanding your knowledge involves breaking it down into four parts:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-things-you-know-that-you-know-known-knowns&#34;&gt;1. Things you know that you know (Known knowns)&lt;/h3&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve got a solid grasp on certain aspects in your field. These are the things you&amp;rsquo;ve done before, have a track record of success, and can easily replicate. Your confidence in these areas is based on proven experiences and successful projects, making them feel almost second nature.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="laying-down-the-knowledge-foundation">Laying down the knowledge foundation</h2>
 <p>Understanding your knowledge involves breaking it down into four parts:</p>
@@ -71,9 +71,9 @@
     </item>
     <item>
       <title>why i won&#39;t deliberately use AI for programming</title>
-      <link>http://localhost:3000/posts/why-i-wont-use-ai-deliberately/</link>
+      <link>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</link>
       <pubDate>Thu, 24 Aug 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/why-i-wont-use-ai-deliberately/</guid>
+      <guid>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</guid>
       <description>Use AI for text-formatting, composing emails and other shallow tasks, but not for learning. learn it yourself.</description>
       <content:encoded><![CDATA[<p>As of 2023, with the emergence of generative AI and tools like chatGPT, the integration of AI into developers&rsquo; workflows has become quite common. AI now comprehends our code, offers suggestions, generates different kinds of tests, and provides explanations that would otherwise require manual searching on Google or Stack Overflow.</p>
 <p>Back in 2021, I had the opportunity to try out the beta version of Copilot, and I must say, it was truly astonishing (still is!). It significantly slashed the time I spent writing repetitive code, although there were instances when it ended up being a bit obtrusive. At that time, I began learning Go, but I had to disable the GitHub Copilot extension. This was because I was trying to grasp the language&rsquo;s syntax, but the extension was consistently auto-completing my code, creating a bit of a hindrance.</p>
@@ -84,9 +84,9 @@
     </item>
     <item>
       <title>stop wasting your keystrokes, my honest rant without a clickbait</title>
-      <link>http://localhost:3000/posts/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</link>
+      <link>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</link>
       <pubDate>Mon, 26 Dec 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</guid>
+      <guid>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</guid>
       <description>Let&amp;rsquo;s talk about tech medium and click baits</description>
       <content:encoded><![CDATA[<p>I’ve been reading tech Medium for a few years now. There is this clickbait phenomena where authors tend to write something along the lines of:</p>
 <ul>
@@ -115,9 +115,9 @@
     </item>
     <item>
       <title>philosophy of software design in vue.js applications</title>
-      <link>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</link>
+      <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>
       <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <guid>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
       <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
       <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
 <h3 id="complexity">Complexity</h3>
@@ -302,9 +302,9 @@ High-level modules should not import anything from low-level modules. Both shoul
     </item>
     <item>
       <title>Developer&#39;s Procrastination</title>
-      <link>http://localhost:3000/posts/developers-productivty-and-procrastination/</link>
+      <link>http://localhost:3000/blog/developers-productivty-and-procrastination/</link>
       <pubDate>Fri, 25 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/developers-productivty-and-procrastination/</guid>
+      <guid>http://localhost:3000/blog/developers-productivty-and-procrastination/</guid>
       <description>Potential causes, cures and possible solutions to developers&amp;rsquo; procrastination</description>
       <content:encoded><![CDATA[<blockquote>
 <p>I always wanted to learn/do that but never actually found time for it -me sometimes</p></blockquote>
@@ -363,9 +363,9 @@ SMART goals have the attributes that will help you have less friction towards st
     </item>
     <item>
       <title>pieces of advice for my junior developer self</title>
-      <link>http://localhost:3000/posts/pieces-of-advice-for-my-junior-developer-self/</link>
+      <link>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</link>
       <pubDate>Sat, 02 Oct 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/pieces-of-advice-for-my-junior-developer-self/</guid>
+      <guid>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</guid>
       <description>The most important tips I would give myself to become a better developer</description>
       <content:encoded><![CDATA[<p>When I joined the Alibaba Travels company, I was tasked to maintain and migrate the hotel CRS (Central Reservation System) panel. It was developed using Vue.js 2.6, webpack, bootstrap-vue UI component library. There used to be a lot of technical debts and anti-patterns such as prop-drilling and excess use of mixins, etc. We were in dire need of a big change.</p>
 <p>There were a lot of ups and downs, but after 3 to 4 months I was able to replace Vue 2 with Vue 3, Webpack with Vite, configured cypress and testing environments, resolved breaking changes and last but not least, migrate ALL of the used SFC (single file components) to use a totally different UI component library with different props, design and behavior!</p>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Mahdi&#39;s Engineering</title>
+    <link>http://localhost:3000/blog/</link>
+    <description>Recent content in Blogs on Mahdi&#39;s Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>mhdi_kr@outlook.com (Mahdi Karimi)</managingEditor>
+    <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
+    <copyright>Mahdi Karimi</copyright>
+    <lastBuildDate>Fri, 18 Jul 2025 01:47:16 +0330</lastBuildDate>
+    <atom:link href="http://localhost:3000/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chess Principles</title>
+      <link>http://localhost:3000/blog/life-lessons-from-chess/</link>
+      <pubDate>Fri, 18 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/life-lessons-from-chess/</guid>
+      <description>&lt;p&gt;The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares&#34;&gt;1. develop your minor pieces as early as possible, putting them on good squares&lt;/h3&gt;&#xA;&lt;p&gt;what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.</p>
+<h3 id="1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares">1. develop your minor pieces as early as possible, putting them on good squares</h3>
+<p>what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.</p>
+<p>where to develop to? develop in the forward direction of your chess board, preferably in your opponent&rsquo;s half of the baord to create a threat.</p>
+<p>the sum of the number of squares your pieces control evaluates how likely you are to win, the more the better</p>
+<p>avoid unneccessary pawn moves in the begenning of the game because your wasting valuable <code>tempo</code> and not activating your more powerful peices.</p>
+<h3 id="2-dont-over-work-a-piece">2. don&rsquo;t over-work a piece</h3>
+<p>moving a single chess peice more than twice &ldquo;over-works&rdquo; the piece making it harder to defend, aka making it a liability.</p>
+<h3 id="3-if-you-found-a-good-move-find-a-better-one">3. If you found a good move, find a better one.</h3>
+<h3 id="4-piece-trading-rule-of-thumb-to-take-is-a-mistake">4. Piece trading rule of thumb: to take is a mistake.</h3>
+<p>Trade pieces only when it improves your position, not your opponent&rsquo;s</p>
+<p>trade your bad peices for opponent&rsquo;s good peices for exmaple if the center pawn chain is on the white squares you could trade your white bishop for the opponent&rsquo;s (for example) powerful knight.</p>
+<h3 id="if-you-could-do-multiple-things-at-once">If you could, do multiple things at once</h3>
+<p>chess is a turn based game where players can move their peices one move at a time, if performing legal moves in chess can help us achieve more than one goal we should consider it, for example, castling king side as white where the queen and other minor pieces have already been developed helps achieve three things:</p>
+<ol>
+<li>it connects the rooks, connected rooks defend each other.</li>
+<li>it moves the king to a very safe spot, no more annoying checks.</li>
+<li>the rook now defends the c7 pawn, which can be activated by trading that c7 pawn later in the game.</li>
+</ol>
+<h3 id="4-blunder-check-your-moves">4. blunder-check your moves</h3>
+<p>Obviosly we don&rsquo;t want to hang our queen in the move 5th right?</p>
+<p>other than outright hanging a peice, watch out for skewers and king-pins and forks</p>
+<h3 id="5-often-develop-forward">5. often develop forward</h3>
+<p>In an aggresive play style, we&rsquo;d only want to move our pieces forward in the chess board
+It also means responding attacks via counter-attacks, often creating multiple opps for sacrifice or material gain.</p>
+<h3 id="6-take-advantage-of-your-opponents-mistakes">6. take advantage of your opponents&rsquo; mistakes</h3>
+<p>when your opponent makes a mistake or breaks principles, it&rsquo;s as if you&rsquo;ve gained a <code>tempo</code> and can also break principles to capitalize on it.</p>
+<h3 id="7-think-multiple-moves-in-advance">7. think multiple moves in advance</h3>
+<p>play your opponent&rsquo;s best move and have a response ready for it</p>
+<h3 id="8-count-defenders-vs-attackers-when-opening-up-the-center">8. count defenders vs attackers when opening up the center</h3>
+<p>when trying openning up the center while performing pawn pushes, move around minor pieces so that your attackers outnumber opponent&rsquo;s defenders. this way after the dust settles, it&rsquo;s not just a big trade and you&rsquo;re up material.</p>
+<h3 id="last-one-know-when-to-break-the-above-principles">last one: know when to break the above principles</h3>
+<p>unless you have a really good reason,</p>
+<hr>
+<p>know the good sacrifice</p>
+<p>activate the king in the endgames</p>
+<p>check the king on purpose, not for lacking a better move</p>
+<p>material advantage is not necessarly indicative of the player winning, you can have more material but haven&rsquo;t yet been developed.</p>
+<p>The winner of the opening: is the person better controlling the center after going into the middle game phase</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:3000/blog/second-post/</link>
+      <pubDate>Thu, 17 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/second-post/</guid>
+      <description>&lt;p&gt;second post&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>second post</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>overcoming the fear of forgetting what you read</title>
+      <link>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</link>
+      <pubDate>Thu, 17 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;“I cannot remember the books I&amp;rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When I read books, especially those on technology and psychology subjects (I&amp;rsquo;m not much into fiction), I often find myself wondering, &amp;ldquo;Why am I reading this if I&amp;rsquo;ll forget most of it later?&amp;rdquo;. This thought can be discouraging because our human brains tend to evaluate my daily activities based on the rewards I expect from getting them done.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>“I cannot remember the books I&rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson</p></blockquote>
+<p>When I read books, especially those on technology and psychology subjects (I&rsquo;m not much into fiction), I often find myself wondering, &ldquo;Why am I reading this if I&rsquo;ll forget most of it later?&rdquo;. This thought can be discouraging because our human brains tend to evaluate my daily activities based on the rewards I expect from getting them done.</p>
+<p>Reading books and maintaining that student mentality can feel like a challenging long-term investment in today&rsquo;s world.</p>
+<h3 id="setting-the-right-expectations--your-brain-is-not-a-hard-drive">setting the right expectations = your brain is not a hard drive</h3>
+<p>From an evolutionary perspective, our brain&rsquo;s primary role is to support our survival instinct by vividly recalling our negative experiences to prevent their repetition in the future, for example thousands of years ago, if you were walking around in the forest and ate a funny looking fruit that was venomous you would be remembering every detail about it for the rest of your life, not to eat it ever again because of the horrible experience it was. This is why we often remember bad memories more vividly than good ones.</p>
+<p>Reducing this powerful biological computer to a mere hard drive is a disservice to the nature. It&rsquo;s not realistic to expect to remember every word we read. Reflecting on myself and my own experiences throughout my life, I blame modern school habits for forming such unrealistic expectations.</p>
+<h3 id="its-important-to-build-critical-thinking">it&rsquo;s important to build critical thinking</h3>
+<p>One of the most useful skills you can develop is the ability to distinguish between bad books and good books. To achieve this you have to read a lot of books without thinking about their ratings and coming up with your own conclusions. Critical thinking helps you take everything with a grain of salt, meaning just because it&rsquo;s written in a book doesn&rsquo;t mean it&rsquo;s true (unless a respected proof is provided)</p>
+<p>My two cents for recognizing good books are the following points:</p>
+<ol>
+<li>Are knowledge gateways to many other references. You will know what other concepts to pursue after you&rsquo;re finished reading it</li>
+<li>Not only do they teach you what you know you don&rsquo;t know, but also they help you resolve your unknown unknowns (find out what you don&rsquo;t know that you don&rsquo;t know)</li>
+<li>Good books have a great distribution of shallow and deep concepts throughout so it&rsquo;s more interesting and easier to keep on going</li>
+</ol>
+<h3 id="connecting-the-dots-and-emotional-charge">Connecting the dots and emotional charge</h3>
+<p>It&rsquo;s essential to make an emotional connection with what you&rsquo;re reading. When you&rsquo;re emotionally engaged with a subject, you&rsquo;re more likely to remember and understand it. This can involve finding personal relevance in the material, such as relating it to your own experiences or passions.</p>
+<p>For example couple of years ago, I started specializing in the software industry. I started reading &ldquo;The pragmatic programmer&rdquo; which was one of the top recommended books for developers to read. I could read it without problems but I wouldn&rsquo;t say I necessarily understood what the concepts meant, because I did not have the industry knowhow to really appreciate what was written.</p>
+<p>Effective reading goes beyond passive absorption of information. It&rsquo;s crucial to actively engage with the text. This means connecting new knowledge to what you already know. Try to relate the information to your existing understanding or experiences. Don&rsquo;t be afraid to ask questions while you read and jot them down. Later, revisit these questions to gain a deeper understanding or seek answers. This active involvement helps create a web of interconnected knowledge.</p>
+<h3 id="use-it-before-you-lose-it">Use it before you lose it</h3>
+<p>The ultimate goal of reading should be practical application. It&rsquo;s crucial to find ways to apply the knowledge you&rsquo;ve gained. This could involve using the information in your work, applying it to problem-solving, or sharing your insights with others. When you actively use what you&rsquo;ve read, you not only solidify your understanding but also make the knowledge a valuable part of your life.</p>
+<h3 id="its-okay-to-revisit-your-previous-books">It&rsquo;s okay to revisit your previous books</h3>
+<p>Re-reading is a valuable strategy to reinforce your understanding and retention of important concepts. On the first read, you might grasp the surface-level knowledge. Revisiting the same material allows you to dig deeper and uncover nuances or details you might have missed initially. It&rsquo;s like peeling back layers of understanding with each re-read. It&rsquo;s especially helpful for complex or dense texts.</p>
+<blockquote>
+<p>&ldquo;No man ever steps in the same river twice, for it&rsquo;s not the same river and he&rsquo;s not the same man&rdquo; -Heraclitus</p></blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Developing self-confidence as a software engineer</title>
+      <link>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</link>
+      <pubDate>Wed, 22 Nov 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</guid>
+      <description>&lt;h2 id=&#34;laying-down-the-knowledge-foundation&#34;&gt;Laying down the knowledge foundation&lt;/h2&gt;&#xA;&lt;p&gt;Understanding your knowledge involves breaking it down into four parts:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-things-you-know-that-you-know-known-knowns&#34;&gt;1. Things you know that you know (Known knowns)&lt;/h3&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve got a solid grasp on certain aspects in your field. These are the things you&amp;rsquo;ve done before, have a track record of success, and can easily replicate. Your confidence in these areas is based on proven experiences and successful projects, making them feel almost second nature.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="laying-down-the-knowledge-foundation">Laying down the knowledge foundation</h2>
+<p>Understanding your knowledge involves breaking it down into four parts:</p>
+<h3 id="1-things-you-know-that-you-know-known-knowns">1. Things you know that you know (Known knowns)</h3>
+<p>You&rsquo;ve got a solid grasp on certain aspects in your field. These are the things you&rsquo;ve done before, have a track record of success, and can easily replicate. Your confidence in these areas is based on proven experiences and successful projects, making them feel almost second nature.</p>
+<h3 id="2-things-you-dont-know-that-you-know-unknown-knowns">2. Things you don&rsquo;t know that you know (Unknown knowns)</h3>
+<p>Intuition plays a role here. It&rsquo;s the ability to leverage your past experiences and knowledge to navigate unfamiliar territories. For instance, if you&rsquo;re familiar with queue data structures, trying to understand something like RabbitMQ becomes less daunting because you can draw on your existing knowledge.</p>
+<h3 id="3-things-you-know-that-you-dont-know-deep-enough-known-unknowns">3. Things you know that you don&rsquo;t know deep enough (Known unknowns)</h3>
+<p>These are the areas where you&rsquo;ve heard about certain concepts but haven&rsquo;t invested enough time to gain a deeper understanding. To tackle these:</p>
+<h4 id="use-eisenhower-matrix-for-efficient-improvements">Use Eisenhower Matrix for Efficient Improvements</h4>
+<p>Prioritize your knowledge gaps based on urgency and importance. Concentrate on high-importance concepts within your expertise, going deep to enhance your skills efficiently.</p>
+<h4 id="going-deep">Going deep</h4>
+<p>Opt for deep work over shallow work. Proficiency isn&rsquo;t accidental. it comes from intentional, deliberate and focused practice. Delve into your known unknowns with deliberate efforts to deepen your understanding.</p>
+<h3 id="4-dont-know-that-we-know-unknown-unknowns">4. don&rsquo;t know that we know (Unknown unknowns)</h3>
+<p>There&rsquo;s a vast realm of things you&rsquo;re not even aware of not knowing. Exposure is the key to reducing these unknown unknowns. Immerse yourself in tech books, explore new concepts, and keep up with emerging technologies. The more you expose yourself, the more you uncover what you don&rsquo;t know and need to know.</p>
+<h2 id="the-competence-confidence-loop">The competence-confidence loop</h2>
+<p>Engaging in tasks that initially seem intimidating is crucial. Success or failure, each experience contributes to personal growth. Recognize that failures are stepping stones to success. Through this continuous cycle, not only do you become more competent, but you also boost your confidence as a software engineer. Remember, the key is to keep growing and evolving.</p>
+<p>Competence creates confidence and confidence helps you become more competent. This is a positive feedback loop you can leverage to go to the next level in your career, as a software engineer.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>why i won&#39;t deliberately use AI for programming</title>
+      <link>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</link>
+      <pubDate>Thu, 24 Aug 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</guid>
+      <description>Use AI for text-formatting, composing emails and other shallow tasks, but not for learning. learn it yourself.</description>
+      <content:encoded><![CDATA[<p>As of 2023, with the emergence of generative AI and tools like chatGPT, the integration of AI into developers&rsquo; workflows has become quite common. AI now comprehends our code, offers suggestions, generates different kinds of tests, and provides explanations that would otherwise require manual searching on Google or Stack Overflow.</p>
+<p>Back in 2021, I had the opportunity to try out the beta version of Copilot, and I must say, it was truly astonishing (still is!). It significantly slashed the time I spent writing repetitive code, although there were instances when it ended up being a bit obtrusive. At that time, I began learning Go, but I had to disable the GitHub Copilot extension. This was because I was trying to grasp the language&rsquo;s syntax, but the extension was consistently auto-completing my code, creating a bit of a hindrance.</p>
+<p>Apart from that observation, I stumbled upon an interesting idea, which called &ldquo;collateral knowledge&rdquo; or &ldquo;chain of learning.&rdquo; This simply implies that while attempting to grasp new concepts, numerous questions might crop up that encourage you to delve deeper and acquire additional knowledge. This chain of curiosity and learning contributes to personal growth and a better comprehension of the world around you. Particularly in the realm of programming, it can transform you into a more adept software engineer, moving beyond the role of mere developer.</p>
+<p>Using AI for learning is akin to consuming fast food – it&rsquo;s quick and easy, but lacks substantial nourishment. While it&rsquo;s true that you can generate a plethora of data by employing multiple prompts to learn various things, this doesn&rsquo;t quite compare to the experience of having over 30 tabs open, toggling between them, and grappling with the material until you truly understand it. In my view, the more effort you invest in understanding concepts, the longer that understanding will endure, and the more effectively you&rsquo;ll be able to apply it across diverse scenarios.</p>
+<p>Use AI for text-formatting, composing emails and other shallow tasks, but not for learning. learn it yourself.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>understanding declarative javascript using monads</title>
+      <link>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</link>
+      <pubDate>Wed, 03 May 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</guid>
+      <description>Monads in the simplest terms</description>
+      <content:encoded><![CDATA[<p>As software engineers, a significant part of our work involves creating data pipelines where several steps involve initializing and converting values based on different data sources. However, handling exceptions and potential errors at each step can quickly make the code hard to follow and nested. In this article, we explore how the Maybe monad can help simplify data pipelines and improve code readability.</p>
+<h3 id="the-problem">The problem</h3>
+<p>Let&rsquo;s consider the following scenario in a microblogging application = we want to determine the number of likes the first comment of a post has. The code might look like this:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln">1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="kr">const</span> <span class="nx">postObject</span> <span class="o">=</span> <span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">(</span><span class="mi">34</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="kr">const</span> <span class="nx">postComments</span> <span class="o">=</span> <span class="nx">postObject</span><span class="p">.</span><span class="nx">comments</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="kr">const</span> <span class="nx">firstComment</span> <span class="o">=</span> <span class="nx">postComments</span><span class="p">.</span><span class="nx">first</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">firstComment</span><span class="p">.</span><span class="nx">likes</span><span class="p">;</span></span></span></code></pre></div><p>In this seemingly simple example, several things can go wrong, such as database connection issues, not finding the specific post, absence of any posts, or no comments or likes on the post. To ensure robustness, we need to handle exceptions and errors at each step.</p>
+<h3 id="the-imperative-approach">The Imperative Approach</h3>
+<p>To handle errors and exceptions, we often resort to nested if statements and try-catch blocks. However, this approach quickly becomes complex and hard to manage. Here&rsquo;s an example of the imperative approach to handle errors in the code:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="kr">const</span> <span class="nx">postObject</span> <span class="o">=</span> <span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">(</span><span class="mi">34</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">postObject</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">        <span class="kr">const</span> <span class="nx">postComments</span> <span class="o">=</span> <span class="nx">postObject</span><span class="p">.</span><span class="nx">comments</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">postComments</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">            <span class="kr">const</span> <span class="nx">firstComment</span> <span class="o">=</span> <span class="nx">postComments</span><span class="p">.</span><span class="nx">first</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">            <span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">firstComment</span><span class="p">.</span><span class="nx">likes</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">numberOfLikes</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="k">return</span> <span class="nx">numberOfLikes</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">            <span class="k">else</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="k">throw</span> <span class="nx">e</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="p">}</span></span></span></code></pre></div><p>As we can see, the code becomes convoluted and harder to follow as we add more steps that depend on previous ones. This mixing of implementation details with data operations leads to decreased code readability and maintainability.</p>
+<h3 id="the-maybe-monad">The Maybe Monad</h3>
+<p>To simplify the handling of complex data pipelines, we can utilize the Maybe monad. A monad is a design pattern that abstracts the pipeline implementation by wrapping a value with a specific type. In this case, we&rsquo;ll create a class called &ldquo;Maybe&rdquo; that encapsulates the value and provides a bind method for chaining operations.</p>
+<p>Here&rsquo;s the definition of the Maybe class and its bind method:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kr">class</span> <span class="nx">Maybe</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="nx">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="nx">constructor</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="nx">bind</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">func</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">        <span class="kr">const</span> <span class="nx">newValue</span> <span class="o">=</span> <span class="nx">func</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">        <span class="c1">// here we can decide to do anything with our data
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>        <span class="c1">// we can implement all sorts of gaurds, exceptions handlers here
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="nx">Maybe</span><span class="p">(</span><span class="nx">newValue</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="p">}</span></span></span></code></pre></div><h3 id="refactoring-with-the-maybe-monad">Refactoring with the Maybe Monad</h3>
+<p>Using the Maybe monad, we can rewrite the previous code in a more concise and readable manner:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="ln">1</span><span class="cl"><span class="kr">const</span> <span class="nx">postId</span> <span class="o">=</span> <span class="mi">34</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="kr">const</span> <span class="nx">numberOfLikes</span> <span class="o">=</span> <span class="nx">Maybe</span><span class="p">(</span><span class="nx">postId</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="nx">repository</span><span class="p">.</span><span class="nx">findOneById</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">post</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">post</span><span class="p">.</span><span class="nx">comments</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">comments</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">comments</span><span class="p">.</span><span class="nx">first</span><span class="p">())</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="p">.</span><span class="nx">bind</span><span class="p">((</span><span class="nx">comment</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">comment</span><span class="p">.</span><span class="nx">likes</span><span class="p">);</span></span></span></code></pre></div><p>By leveraging the bind method of the Maybe monad, we can chain the data operations while encapsulating error handling and exception management within the Maybe class itself. This abstraction allows us to focus on the core logic of the data pipeline, improving code readability and maintainability.</p>
+<p>Monads, such as the Maybe monad, provide a design pattern that simplifies the handling of data pipelines by abstracting the implementation details and encapsulating values within a specific type. By separating the core logic from error.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>stop wasting your keystrokes, my honest rant without a clickbait</title>
+      <link>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</link>
+      <pubDate>Mon, 26 Dec 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</guid>
+      <description>Let&amp;rsquo;s talk about tech medium and click baits</description>
+      <content:encoded><![CDATA[<p>I’ve been reading tech Medium for a few years now. There is this clickbait phenomena where authors tend to write something along the lines of:</p>
+<ul>
+<li>“some slightly old technology is going to die, here’s what to use instead”</li>
+<li>“stop using that new technology, here’s why”</li>
+<li>“this technology vs that technology, why this is always better than that technology”.</li>
+</ul>
+<p>you get the idea.</p>
+<p>Freedom of speech is a beautiful thing that allows such content on the platform and thank God I am NOT a moderator nor in charge of stopping these kinds of content.</p>
+<h3 id="doing-anything-for-the-clout">Doing anything for the clout</h3>
+<p>One possible motivation would be to generate outrage from folks like myself. If you’re reading this article they already have achieved their goal of chasing clout. Any publicity is good publicity. They are satisfied with their comment section fighting them why they’re wrong or why they are right.</p>
+<h3 id="jumping-on-the-hype-train">Jumping on the hype train</h3>
+<p>When carbon came out a few months ago, I’ve seen countless articles suggesting “why you should re-write your entire C++ project using carbon”!</p>
+<p>Why? just because there’s this new trendy thing should we throw all the things we are using (and that in most cases are making money from in our companies we work in) away?</p>
+<p>That notion by itself is at best laughable.</p>
+<h3 id="negligence-towards-tradeoff">Negligence towards Tradeoff</h3>
+<p>There are countless comparison SEO hells in the tech articles. As a software engineer one of the most useful skills you acquire is to detect trade-offs and choose between technologies and tools available to reduce your cost and maximize your performance.</p>
+<p>These kind of articles completely forget that fact and try to tell you why something is always better than that technology and why you should never even consider using that technology.</p>
+<p>Don’t even get me started on the “that technology is dead …” articles.</p>
+<h3 id="my-two-cents-to-these-writers">My two cents to these writers</h3>
+<p>Spend time on your articles. You’re readers are humans, not some crawler robot trying to index your content based on key word frequency or content score. Have some respect for our time and well being.</p>
+<p>Closing this article with a quote from beloved Scott Hanselman:</p>
+<p>There are a finite number of keystrokes left in your hands before you die. stop wasting your keystrokes.</p>
+<p>Thank you.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>maintaining my sanity in a world full of new shiny technologies</title>
+      <link>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</link>
+      <pubDate>Mon, 19 Sep 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</guid>
+      <description>managing to keep calm and to continue learning in a noisy world</description>
+      <content:encoded><![CDATA[<p>Software development field is moving too fast. It’s so hard to keep up 100% with latest trends and new technologies. In my opinion it is one the cons of becoming a software engineer. You have to be willing to study lots of new technologies on a daily basis to be able to stay fresh and relevant.</p>
+<p>Some of the technology trends are fad and short-lived. They are not going to be something that’s used by a lot of companies in the future but some of them are here to stay.</p>
+<p>There’s a common term in JavaScript ecosystem called “JavaScript fatigue” describing newcomer’s Exhaustion of the current state of the endless number of JavaScript frameworks and libraries which seemingly do the same thing with different names.</p>
+<p>In this article I intend to shine light on some of the ideas surrounding this issue we are facing and share my opinions on it.</p>
+<p>Put emphasis on the timeless concepts
+Try mastering protocols, Their history and the philosophy behind them. protocols are the underlying principles underneath all of the libraries and tools we are using on a daily basis.</p>
+<p>For example, HTTP, TCP, gRPC or Web Sockets are always maintain their definition in terms of technical specs and functionality. What you expect from a HTTP 1.1 request is as solid as bedrock and has never changed since 1997.</p>
+<p>HTTP 1.1 RFC, Try reading RFCs as a hobby for in your spare time, You’ll thank me later :D
+Emphasis on learning timeless concepts and building blocks frees you from paying too much attention to the libraries that implement them and even better, Mastering fundamentals lets you learn new tools and libraries very rapidly.</p>
+<p>The best camera is the one you already own, stay focused
+Cloudflare just announced using new reverse proxy instead of nginx and made a call for open sourcing it. what happens to nginx now? Nothing. Many organizations will keep using it because it is good enough for their needs and not all of us should keep up with the latest shiny thing or make new frameworks for ourselves.</p>
+<p>There are many instances when people make new tech to solve their problems. It is important to pay attention to FOMO (fear of missing out). Just because someone is using something fresher doesn’t mean you should switch too.</p>
+<p>You can always port your existing knowledge to new technology
+Imagine using redis or memcached in your projects, you are already familiar with key-value pair in-memory databases. One day there’s a new modern replacement for them called dragonfly.</p>
+<p>you already have a good understanding how that new thing works because you are proficient in the less modern tech. You can quickly pick that up if needed and port your legacy knowledge to the new tech so you don’t need to fear missing out.</p>
+<p>Underrated skill of our generation, learning what to learn
+Working in the software industry, you’ll quickly notice you can’t learn everything. It is much about what you ignore than what you pay attention to. As said in the previous section, timeless concepts let you make better decisions in what to learn next and what areas need more of your limited attention.</p>
+<p>You have to learn the ability to quickly understand what to ignore and what to pay attention to.</p>
+<p>Many dots may come up but you don’t have to connect them!
+Deprecated or old doesn’t always mean useless
+There are many web applications built on top of jQuery, working really well serving their customers. Rewriting such applications is just too much work and my not deliver any new value to the business. If new tech doesn’t bring any new business value to your customers you may want to reconsider using it in the first place.</p>
+<p>If you enjoy this much chaos, more power to you!
+Ending this short article with the notion that, there are many people who deeply appreciate how fast things are moving and also are into the chaos surrounding the whole ecosystem. I’m not by no means against this preference and want to mention it is just not my cup of tea. If you like this much chaos, more power to you! stay open-minded but also intentional at the same time.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>philosophy of software design in vue.js applications</title>
+      <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>
+      <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
+      <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
+<h3 id="complexity">Complexity</h3>
+<p>In the first and second sections, the book teaches us to fight complexity in our systems, we must take two important actions:</p>
+<p>Eliminate complexity by writing shorter and more obvious code
+Encapsulate complexity in components (or modules) so that other developers working on the project are not exposed to it all at once
+These points may seem obvious or trivial at first, but personally I&rsquo;ve seen engineers with all levels of expertise make the same mistakes over and over again (including myself!).</p>
+<p>So to tackle this problem we should first learn the definition, symptoms and the possible causes of complexity.</p>
+<h3 id="definition">Definition</h3>
+<p>“Complexity is anything related to the structure of a software system that makes it harder to understand or modify.”</p>
+<h3 id="symptoms">Symptoms</h3>
+<p>Complexity in software systems has 3 major symptoms:</p>
+<h4 id="change-amplification">Change amplification</h4>
+<p>“Change amplification means a seemingly simple change requires code modifications in many different places.”</p>
+<p>Meaning there are a lot of couplings in our system which breeds complexity.</p>
+<h4 id="cognitive-load">Cognitive load</h4>
+<p>“Cognitive load is measured by how much a developer needs to know in order to complete a task.”</p>
+<h4 id="unknown-unknowns">Unknown unknowns</h4>
+<p>“it’s not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.”</p>
+<p>Causes
+Now, what can actually cause those symptoms in our software systems? two major factors are to consider:</p>
+<p>Dependency
+A dependency exists when a given piece of code cannot be understood and modified in isolation. The code relates in some way to other code, and the other code must be considered and/or modified if the given code is changed.</p>
+<p>Obscurity
+Obscurity occurs when important information is not obvious.</p>
+<p>In JavaScript/TypeScript projects, non-existing JSDoc or using the “any” type all over the place are two examples of obscurity.</p>
+<p>Have you ever been in a situation when you were forced to read the low level implementation of a component just to know what props to pass to it or how something is handled inside? you’ve just experienced obscurity.</p>
+<p>Working Code is !enough
+There are 10 types of developers in this world. The ones who can read binary and the ones who can’t. Just kidding 😄.</p>
+<p>There are two types of developers, Tactical and strategic.</p>
+<p>Tactical
+Tactical programmers’ focus is to get something working as fast as possible, such as a new feature or a bug fix. The product managers and executives love them but this is exactly how systems eventually become complicated.</p>
+<p>Tactical developers’ mindset is the main cultural factor that brings about “Technical debt” in most cases.</p>
+<p>Strategic
+Strategic programmers realize that working code is not enough.</p>
+<p>Most of the code in any system is written by extending the existing codebase, so your most important job as a developer is to facilitate those future extensions.</p>
+<p>Strategic programmers do proactive or reactive investments. such as:</p>
+<p>Find a simple design for each new component
+Try a couple of alternative designs and pick the cleanest one
+Try to imagine a few ways in which the system might need to be changed in the future and make sure that will be easy with your design
+Write a good documentation
+When you discover a design problem, don’t just ignore it or patch around it
+We should strive to be a little more strategic and a little less tactical in our careers.</p>
+<p>Module depth
+Each module or component has two parts = an interface and an implementation.</p>
+<p>The best modules are the ones whose interfaces are much simpler than their implementations.</p>
+<p>This is exactly where “breaking code to smaller parts” can actually make our architecture worse, because the benefits provided by shallow modules are negated by the cost of learning and using their interfaces.</p>
+<p>Interfaces should be designed to make usage of the common case as simple as possible (KISS).</p>
+<p>Hiding information, or leaking it!
+Each component should encapsulate a few pieces of knowledge, which represent design decisions. The knowledge is embedded in the component’s implementation but does not appear on its interface, so it is not visible to other modules.</p>
+<p>Information leakage occurs when a design decision is reflected in multiple components. This creates a dependency between the components. Also, if a piece of information is reflected in the interface for a component, then by definition it has been leaked.</p>
+<p>JSON interface does not tell us how it does parsing or stringifying. It hides that knowledge and just does it for us.</p>
+<p>Different Layer, Different Abstraction
+If a system consists of adjacent layers with similar abstractions, this suggests a problem with the class decomposition.</p>
+<p>Pass-through variables
+Imagine you have a long chain of methods and a variable is passing down through it. This variable creates complexity because it forces all the links in that chain to be aware of its existence, even if one of them doesn’t use it.</p>
+<p>Even worse, let’s say you want to modify the implementation or type of that variable, You need to change all those methods which that variable is passed to (change amplification) or if a new variable comes into play you have to make sure the path that variable traverses is correct and expected.</p>
+<p>An example of pass-through variables in Vue.js is props usage.</p>
+<p>A quick example of prop drilling in a hypothetical to-do list application
+In the example above, we are passing a dynamic URL that we need to post a payload to whenever we check something in our to-do list. Let’s suppose we only have access to that URL in the root index.vue file so we can’t just hardcode that in the TaskItem.vue file so we are forced to pass it down the component tree like that.</p>
+<p>Now imagine if requirements change, in that case we need to change 3 places to accomplish one thing!</p>
+<p>Pass-through functions
+Methods that do little except invoke other methods, whose signatures are similar or identical, are shallower as they increase the interface complexity of the class, but they don’t increase the total functionality of the system. They indicate that there is confusion over the division of responsibility between classes/components.</p>
+<p>Interface of a class should normally be different from its implementation = the representations used internally should be different from the abstractions that appear in the interface.</p>
+<p>Better Together Or Better Apart
+One of the most fundamental questions in software design = given two pieces of functionality, should they be implemented together in the same place, or should their implementations be separated?</p>
+<p>Subdividing components can result in:</p>
+<p>The more the number of components is, the harder it is to keep track of them all (more hassle because of more moving pieces)
+Additional code to manage the components
+Separation makes it harder to see the components at the same time, or even be aware of their existence (increasing unknown unknowns).
+Code duplication
+A few indications that two pieces of code are related are:</p>
+<p>They share information
+They are used together (only compelling if bidirectional)
+They overlap conceptually
+It’s hard to understand one of the pieces of code without looking at the other.
+We should:</p>
+<p>Bring together if information is shared.
+Bring together if it will simplify the interface.
+Bring together to eliminate duplication.
+Separate general-purpose and special-purpose code. Failing to do so is usually a red flag.
+In Vue 3, there’s this concept of composition API that we can use to easily use other Vue primitives that we already know and love such as computed properties, refs and reactives, watchers and lifecycle hooks in one place and use it everywhere we like.</p>
+<p>useTodos.ts composable gathering all logic in one place
+What we did here is that we gathered the logic and state spreading through 3 different components in one single file. we can import this file and use what it returns like any other module and even if requirements change in the future, we only need to change one file!</p>
+<p>Pull Complexity Downwards</p>
+<p>It’s more important for a module to have a simple interface than a simple implementation (as also said above).</p>
+<p>We should try to do complicated tasks in the inner layers and do more general things in the outer layers. This reduces cognitive load for others because we are creating modules with more functionality and simpler interfaces which is the textbook definition of “deeper modules”.</p>
+<p>Define Errors Out Of Existence
+The exceptions thrown by a class are part of its interface. Classes with lots of exceptions have complex interfaces, and they are shallower than classes with fewer exceptions.</p>
+<p>Exception handling is one of the worse sources of complexity in software systems.</p>
+<p>Exception handling code is inherently more difficult to write than normal-case code. Furthermore, it creates opportunities for more exceptions.
+It’s difficult to ensure that exception handling code really works. Some exceptions can’t easily be generated in a test environment.
+Code that hasn’t been executed doesn’t work.</p>
+<p>The best way to eliminate exception handling complexity is to define your APIs so that there are no exceptions to handle.</p>
+<p>Exception masking
+Reduce the number of places where exceptions must be handled.</p>
+<p>Exception aggregation
+Handle many exceptions with a single piece of code. Exception aggregation works best if an exception propagates several levels up the stack before it is handled. This allows more exceptions from more methods to be handled in the same place.</p>
+<p>This is the opposite of exception masking, masking usually works best if an exception is handled in a low-level method. For masking, the low-level method is typically a library method used by many other methods, so allowing the exception to propagate would increase the number of places where it is handled.</p>
+<p>Masking and aggregation are similar in that both approaches position an exception handler where it can catch the most exceptions, eliminating many handlers that would otherwise need to be created.</p>
+<p>Just crash when it makes sense to do so. By the same token, it also makes sense to define other special cases out of existence.</p>
+<p>Design it Twice
+Designing software is hard, so it’s unlikely that your first thoughts about how to structure a module or system will produce the best design. You’ll end up with a much better result if you consider multiple options for each major design decision.</p>
+<p>Writing better comments
+There are a lot of excuses for not commenting in any code base such as:</p>
+<p>Good code is self-documenting.
+I don’t have time to write comments.
+Comments get out of date and become misleading.
+The comments I have seen are all worthless. Why bother?
+All of these excuses are debunked in the book.</p>
+<p>Good documentation helps with two of three ways in which complexity manifests itself in software systems = cognitive load and unknown unknowns.</p>
+<p>Comments should decrease obscurity
+Consider the following points:</p>
+<p>Decide on conventions for commenting.
+Don’t repeat the code. Comments at the same level of details as the code is not useful and a red flag. Ask yourself a question “could someone who has never seen the code write the comment just by looking at the code next to the comment?”. If the answer is yes, the comment is not useful.
+Comments augment the code by providing information at a different level of detail, low-level comments add precision, high-level comments offer intuition.
+If interface comments must also describe the implementation, then the class/method is shallow.
+Delayed comments are bad comments, write the comments first.
+Comments are a design tool. Comments serve as a canary in the coal mine of complexity. If a method or variable requires a long comment, it is a red flag that you don’t have a good abstraction.
+Early comments are fun comments, Early comments are not really too expensive.
+Choosing Names
+Good names are a form of documentation/abstraction. Good names have two properties, precision and consistency.</p>
+<p>Consistency
+Always use the common name for the given purpose. Never use the common name for anything other than the given purpose. Make sure that the purpose is narrow enough that all variables with the name have the same behavior.</p>
+<p>The greater the distance between a name’s declaration and its uses, the longer the name should be.</p>
+<p>Precision
+Vague names are a red flag. It’s fine to use generic names like i and j in a loop. But if the loop gets so long that you can&rsquo;t see it all at once, then a more descriptive name is in order. Also avoid names that are too specific. - If you find it difficult to come up with a name for a particular variable that is precise, intuitive, and not too long, it suggests that the variable may not have a clear definition or purpose.</p>
+<p>Consistency
+Consistency creates cognitive leverage, once you have learned how something is done in one place, you can use that knowledge to immediately understand other places that use the same approach. Examples include names, coding style, interfaces, design pattern, and invariants.</p>
+<p>Document the most important overall conventions. Enforce conventions with automated tools (like ESLint) to check for violations.</p>
+<p>Don’t change existing conventions. Having a “better idea” is not a sufficient excuse to introduce inconsistencies. The value of consistency over inconsistency is almost always greater than the value of one approach over another.</p>
+<p>Like the saying goes:</p>
+<p>When in Rome, do as the Romans do.</p>
+<p>Code Should Be Obvious
+Software should be designed for ease of reading, not ease of writing.</p>
+<p>Things that make code more obvious:</p>
+<p>Choosing good names (as mentioned above)
+Consistency (as mentioned above)
+General-purpose techniques such as white space or comments.
+Things that make code less obvious:</p>
+<p>Event-driven programming
+Generic containers
+Different types for declaration and allocation
+Code that violates reader expectations
+One of the bad practices in Vue is handling business logic and state mutation in watchers. Watchers or watchEffect should be implemented in a “fire and forget” manner. Also using provide and inject can potentially be not obvious. use these tools wisely.</p>
+<p>We’ve covered key concepts discussed in the book. now as a bonus let’s see how SOLID principles relate to our readings above!</p>
+<p>SOLID Vue</p>
+<ol>
+<li>S for “Single-responsibility principle”
+The idea behind the SRP is that every class, component, module or function in a program should only have one responsibility. As a commonly used definition we can say = “every component should have only one reason to change”.</li>
+</ol>
+<p>Your components need to do one thing and if you want multiple thing happens you should compose them so that a reader understands “oh this a component that gathers 3 other components that only do one thing, so it should only be able to do 3 things!”</p>
+<p>Be cautious if you have a component that imperatively does a lot of different things at once.</p>
+<p>A great example of SRP is tailwind CSS, A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</p>
+<p>Great thing about tailwind that everyone loves is that it is consistent and composable so you can throw as many classes to a div as you’d like and be sure that the end result will be a combination of the classes and non of these classes are implicitly overriding each other’s styles.</p>
+<ol start="2">
+<li>O for “Open–closed principle”
+The open-closed principle states that software entities should be open for extension, but closed for modification.</li>
+</ol>
+<p>Slots are great examples of how we can Facilitate extensions in Vue. Slots will help us extend our components with any template we want and in the same time keeping our state inside!</p>
+<p>In computer programming, as soon as you introduce a “state” you are responsible for its existence and side effects. Always ask yourself “what changes my states?”. Always have a “state machine” in your mind that handles every expected behavior or unexpected errors. This is how we can make sure we are closed for modification.</p>
+<ol start="3">
+<li>L for “Liskov substitution principle”
+Personally I don’t think we get to see a lot of LSP in the Vue ecosystem because I assume there aren’t a lot of companies or teams that are using class components, but anyways, here’s the description!</li>
+</ol>
+<p>The “Liskov substitution principle” simply implies that when an instance of a class/component is passed or extended to another class/component, the inheriting class should have a use case for all the properties and behavior of the inherited class.</p>
+<ol start="4">
+<li>I for “Interface segregation principle”
+The interface segregation principle states that the interface of a program should be split in a way that the user/client would only have access to the necessary methods related to their needs.</li>
+</ol>
+<p>This is kind of related to the first principle (SRP) and this is closely related to deep modules concept discussed at in first sections of this article. It is important when designing prop interfaces and how components interact with each other.</p>
+<ol start="5">
+<li>D for “Dependency inversion”
+High-level modules should not import anything from low-level modules. Both should depend on abstractions.</li>
+</ol>
+<p>Let me show you an example in Vue = loose coupling between backend APIs and component props.</p>
+<p>Never let your backend API properties define your components’ props, instead conclude an interface that satisfies both APIs, UI and application requirements simultaneously, then use a map function to transform the API data so that in complies to the interface.</p>
+<p>This way if API or requirements change, you only alter the mapping implementation and all the component tree will be untouched!</p>
+<p>This method of thinking is inconvenient and takes more time to develop at first but this is an investment for future changes.</p>
+<p>At last we should consider not obsessing about all the rules said above. There are technical debts to overcome deadlines etc. but we should strive for fundamentals and learning them because we will subconsciously be better programmers in the end.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>maintaining my statically generated tech blog</title>
+      <link>http://localhost:3000/blog/maintaining-my-static-blog/</link>
+      <pubDate>Mon, 14 Mar 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/maintaining-my-static-blog/</guid>
+      <description>How I manage to maintain this blog using Notion, Next.js and Github Pages</description>
+      <content:encoded><![CDATA[<h3 id="my-story">My story</h3>
+<p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination/">but never actually put the time in to get it done</a>.
+Creating meaningful blog posts is not an easy task, might as well have systems and tools in place helping us do it faster and easier.</p>
+<p>I tried many different ways and flavors of blogging. Wordpress was heavyweight and clunky, Medium or other micro-blogging services did not just feel <em>right</em> to me. Naturally as a web developer, I wanted to have something of my own and make it from scratch.</p>
+<h3 id="github-pages">Github pages</h3>
+<p>I made a repository on Github to host all of the code needed for the blog. Then used the Github pages free service to serve the HTML files available on the repo.</p>
+<p>As a cherry on top, you can use Cloudflare&rsquo;s free services to point the <code>YOUR_USR.github.io/YOUR_REPO</code> to your custom domain <code>YOUR_DOMAIN.co.uk</code> for example.</p>
+<p>That&rsquo;s exactly what I did to <code>Mahdikarimi.com</code> and pointed it to <code>mhdi-kr.github.io/personal-blog</code> using Cloudflare and my domain provider settings.</p>
+<h3 id="nextjs-filesystems-and-markdown-parsers">Next.js, Filesystems and Markdown parsers</h3>
+<p>This website was built upon the Next.js React framework. I&rsquo;ve developed React components layout and stylings. The actual content of the blog posts are written in Markdown format in a specific directory inside the repo.</p>
+<p>Next.js allows you to acess filesystems in serverside configuration using the <code>fs</code> object available in Node js.
+The <code>getStaticProps</code> function is called by Next.js when the page is first loaded. It is then used to fetch the markdown content using Nodejs filesystem.</p>
+<p>After fetching the actual content as strings we need to parse it using a Markdown parser and pass it onto the components as state props for react to do its magic.</p>
+<h3 id="sky-is-the-limit">Sky is the limit!</h3>
+<p>You can do all sorts of cool things with Markdown files! You can hide any metadata inside it files called <em>Frontmatter</em>. Your markdown parser will provide it to you and you can use it to embed dates, tags or arbitrary static state in your blog posts!</p>
+<p>Using that state in React, you can conditionally hide/show your posts, render tags or dates, etc! Sky&rsquo;s the limit.</p>
+<h3 id="generating-static-html-css-and-js-files">Generating static HTML, CSS and JS files</h3>
+<p>By using the <code>next export</code> command in the terminal, we can render all the HTML, CSS and JS files we need for the website to be up and running without a runtime in the <code>/out</code> directory. This is great because this is all we need for Github pages!</p>
+<h3 id="publishing-changes-without-hassle">Publishing changes without hassle</h3>
+<p>Let&rsquo;s publish the generated files to Github Pages. I use the <code>gh-pages</code> CLI utility,<a href="https://www.npmjs.com/package/gh-pages"> available on NPM</a>, to publish the static files to a specific branch.</p>
+<p>Github automatically detects push-events to this branch and then deploys my newly created HTML and assets files to the web!</p>
+<h3 id="all-in-one-go">All in one go!</h3>
+<p>You can aggergate all the steps I talked about in one single command, or even register it as a NPM command to run every time you want to publish your blog.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="ln">1</span><span class="cl">
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ yarn build <span class="o">&amp;&amp;</span> yarn <span class="nb">export</span> <span class="o">&amp;&amp;</span> touch out/.nojekyll <span class="o">&amp;&amp;</span> gh-pages -t -d out</span></span></code></pre></div><h3 id="handling-comments">Handling comments</h3>
+<p>Any form of content creation requires a feedback loop to bring value to its users as well as authors.</p>
+<p>The problem with Github pages for handling comments is that everything is static. You don&rsquo;t have access to a database on it to be able to do CRUD operations.</p>
+<p>Of course there are workarounds for those kinds of tasks but I wanted something elegant and fast. This is where utterances comes into play.</p>
+<p>With utterances Github app you can have fully functional comment section in your posts! It uses Github issues under the hood and I could easily integrated this with React.</p>
+<p>Make sure you <a href="https://utteranc.es/">checkout their documentation for more details!</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Developer&#39;s Procrastination</title>
+      <link>http://localhost:3000/blog/developers-productivty-and-procrastination/</link>
+      <pubDate>Fri, 25 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/developers-productivty-and-procrastination/</guid>
+      <description>Potential causes, cures and possible solutions to developers&amp;rsquo; procrastination</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I always wanted to learn/do that but never actually found time for it -me sometimes</p></blockquote>
+<p>Procrastination means putting things off till the last minute. The deadline of a task, project or duty comes around sooner or later. Then after being high on adrenaline and pulling a couple of all-nighters, we manage to survive and deliver what we easily could have done without that much stress.</p>
+<h2 id="the-cause">The cause</h2>
+<p>By personal experience, I think procrastination has 3 major causes.</p>
+<ol>
+<li>
+<h3 id="1-your-value-system">1. Your value system</h3>
+<blockquote>
+<p>“He who has a why to live for can bear almost any how.” - Friedrich Nietzsche</p></blockquote>
+<p>Why are you doing this task? What will you achieve? What is your goal? money? social validation? whatever the reason might be, you have to go through this personal conversation with yourself.</p>
+<p>Our brains are wired for survival and passing genes to the next generation. That is the ultimate goal of any living being. Our natural instinct could not care less about getting straight A&rsquo;s in final exams or learning that hot new technology, unless you couple it with some value deep within your psyche.</p>
+<p>Try to understand your why, then and only then, you will be able to bear its how.</p>
+</li>
+<li>
+<h3 id="2-fear">2. Fear</h3>
+<p>We are scared of the unknown and ambiguity, just like how children fear darkness.</p>
+<p>When we don&rsquo;t know completely what we are dealing with as a challenge, a classic trick our brain does is to try to avoid it by sticking to short term pleasure, but here&rsquo;s when you have to intentionally interfere with this natural response.</p>
+<p>After gaining momentum, that fear will be gone and you will have no problems doing that work again.</p>
+</li>
+<li>
+<h3 id="3-distraction">3. Distraction</h3>
+<p>We live in a society prone to distraction. We&rsquo;re constantly called on social apps, emails and other matters thanks to the internet.</p>
+<p>We cannot get rid of distraction entirely, but the thing we most certainly can do is <em>reducing the possibility of being distracted</em> when we are actively working.</p>
+<p>There are many systems, apps and tools you can facilitate to reduce the amount of distraction you receive per day.</p>
+</li>
+</ol>
+<h2 id="the-cure">The cure</h2>
+<p>I wrote about the potential reasons why you might be procrastinating. Now let&rsquo;s see how we might be able to get decrease it.</p>
+<ul>
+<li>
+<h3 id="remove-the-delay-for-execution">Remove the delay for execution</h3>
+<p>The more time you take to prepare, the less likely you are to finish the task at hand.</p>
+<p>There&rsquo;s a famous quote by Warren Buffet saying &ldquo;An idiot with a plan can beat a genius without a plan&rdquo;, personally as a professional &ldquo;over-thinker&rdquo;. this is not a case for me.</p>
+<p>I&rsquo;ve seen times and times again that when I get to work without that much planning I am quicker gain feedback and to change course and keep moving step by step. Hip-firing my way through success if you will.</p>
+</li>
+<li>
+<h3 id="gain-momentum">Gain momentum</h3>
+<p>Newton&rsquo;s first law states that if a body is at rest or moving at a constant speed in a straight line, it will remain at rest or keep moving in a straight line at constant speed unless it is acted upon by a force.</p>
+<p>I&rsquo;ve experienced the same concept can be applied to human actions. If you&rsquo;re not doing anything and are lazy to start things, chances are you are going to be that way unless you gain momentum towards what you want to do.</p>
+<p>Same principle applies to people that are motivated and high performer. They are more likely to keep doing what they are already doing.</p>
+</li>
+<li>
+<h3 id="try-smart-goals">Try SMART goals</h3>
+<p>While planning ahead of time, try to set specific, measurable, attainable, realistic and time.-bound goals.
+SMART goals have the attributes that will help you have less friction towards starting, doing and finishing your tasks.</p>
+</li>
+<li>
+<h3 id="pomodoro-technique">Pomodoro technique</h3>
+<p>Simply put, you set an alarm for 10-15 minutes, you get to work and discard any distractions or any multitasking. 15 minutes of laser focusing on one task. After that you take a 5-10 minute break. Repeat this process multiple time and you will get so much out of your day!</p>
+<p>Pomodoro technique is effective because you limit all of your friction. It is only 10 minutes! it is going to be fun! But there&rsquo;s a compound effect to it. which will pay off soon.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>[unfinished] Refactoring to Functional paradigm</title>
+      <link>http://localhost:3000/blog/functional-programming-crash-course/</link>
+      <pubDate>Wed, 02 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/functional-programming-crash-course/</guid>
+      <description>Dotchaining the non-dotchainable in Node JS</description>
+      <content:encoded><![CDATA[<h3 id="what-we-already-know-about-developing-applications">What we already know about developing applications</h3>
+<p>we start with names, key-value pairs, ifs and elses, iteration and procedures.
+on top of all this we have atomic data types in every single programming languages such as strings, numbers and booleans.
+we can go even higher than that to reach arrays, hashes and namespaces.
+object oriented programming brings other abstractions such as classes, objects with methods and inheritance.
+A mixture of all these entities make up our <em>programs</em></p>
+<h3 id="a-reason-to-refactor">A reason to refactor</h3>
+<p>functional programming is refactoring what you already know about wiritng applications
+At the start applications are written neatly but as the time goes on and we keep adding features and dependancies to our apps, it becomes a mess</p>
+<h3 id="mathematicions-have-the-same-problems-as-we-do">Mathematicions have the same problems as we do</h3>
+<p>In my opinion, computer science is a subset of mathematics. They faced the very problems we have with writing our applications and came up with <em>principia mathematica</em> to try to explain maths in atomic levels of abstraction</p>
+<p>In mathematics, a function is a relation between two sets, a mapping from one to another.</p>
+<p>what we do is not the same as functions, we return numbers, or void or IO or database or HTTP request</p>
+<p>what if applied some rules to our programming to make it look like maths?</p>
+<ul>
+<li>Look at inoput and parameteres, generate output</li>
+<li>no side effects</li>
+</ul>
+<p>in hope of making programs easier to understand and easier to maintain
+fx wont affect x</p>
+<p>make datastructures immutable
+dont change things
+how can we be productive? make a copy of any ds you want to mutate.
+there&rsquo;s a problem. a lot of copies. what if you have a milion element array?</p>
+<h3 id="lets-start-with-a-clean-sheet-of-paper">lets start with a clean sheet of paper</h3>
+<h3 id="side-effects">side effects</h3>
+<p>customers and business care about the side effecst! actyally desired effects!
+how to change outside world with functional limitations?
+there should a some kind of a queue that has messy appearance that our functions inqueue stuff in it and some parts of our code grabas stuff from it and executes it</p>
+<h3 id="functional-refactoring-in-action">Functional refactoring in action</h3>
+<p>Here&rsquo;s what we want to achieve. we first need to read the text content of a <code>.svg</code> file, then we need to pipe the content through a package called <code>svgo</code>. It optimizes SVG string and removes unneeded content without affecting the actual vectors. Then we need to make a <code>.vue</code> single file component and write the content we have in it.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">// optimizer.js
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;fs&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kr">const</span> <span class="p">{</span> <span class="nx">optimize</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;svgo&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="kr">const</span> <span class="nx">optimizer</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">({</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="kr">import</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">optimizer</span><span class="p">(</span><span class="nx">readFiles</span><span class="p">(</span><span class="nx">arg</span><span class="p">)),</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="nx">optimize</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">optimizer</span><span class="p">(</span><span class="nx">optimizeItems</span><span class="p">(</span><span class="nx">arg</span><span class="p">)),</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="kr">export</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">writeComponents</span><span class="p">(</span><span class="nx">arg</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="kr">const</span> <span class="nx">readFiles</span> <span class="o">=</span> <span class="p">(</span><span class="nx">paths</span><span class="p">)</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="nx">paths</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">filePath</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">({</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">        <span class="nx">path</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">        <span class="nx">content</span> <span class="o">=</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="nx">filePath</span><span class="p">,</span> <span class="s2">&#34;utf8&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    <span class="p">}));</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="kr">const</span> <span class="nx">optimizeItems</span> <span class="o">=</span> <span class="p">(</span><span class="nx">contents</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">contents</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">optimize</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">
+</span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="kr">const</span> <span class="nx">writeComponents</span> <span class="o">=</span> <span class="p">(</span><span class="nx">items</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">    <span class="nx">items</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">        <span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="nx">component</span><span class="p">.</span><span class="nx">path</span><span class="p">,</span> <span class="nx">component</span><span class="p">.</span><span class="nx">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">24</span><span class="cl">
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="nx">optimizer</span><span class="p">([</span><span class="s2">&#34;foo.svg&#34;</span><span class="p">,</span> <span class="s2">&#34;bar.svg&#34;</span><span class="p">]).</span><span class="kr">import</span><span class="p">().</span><span class="nx">optimize</span><span class="p">().</span><span class="kr">export</span><span class="p">();</span></span></span></code></pre></div><p>notice we are only declaring seperated functions with predictible actions without any mutiation to any variable
+three main functions to do certain tasks. then aggregate these functions in <code>optimizer</code> factory function to be able to do dot chaining with the results</p>
+<p>you can write individual tests for each function and increse the coverage</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>making a vscode extension using vue ecosystem</title>
+      <link>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</link>
+      <pubDate>Sun, 12 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</guid>
+      <description>Using vue 3, vite and TypeScript, we try to make a vscode extension</description>
+      <content:encoded><![CDATA[<p>Hello friends, Today I’m going to show you how you can make a VS Code extension using WebView panels and Vue 3.</p>
+<p>Our First “Hello World” Extension
+Let’s start with a simple extension that shows a message toast in the bottom right, shall we?</p>
+<p>According to the VS Code official instructions, we first need to install the following two packages.</p>
+<p>$ npm install -g yo generator-code
+After installing these packages, We need to run this command to scaffold our basic extension.</p>
+<p>yo code
+After completing required steps in the CLI, we have a base extension that we can tinker with.</p>
+<p>In the extension.ts file generated we can see two callback functions = activate() and deactivate() .These functions are called in our extension’s lifecycle when starting and stopping.</p>
+<p>To test and run our extension go ahead and press F5 on the keyboard. This will open up a new VS Code instance called the “Development host” that has our extension loaded up locally.</p>
+<p>in the extension.ts file we can see a key with which our extension is registered in the Command palette. That key also has to be registered in the package.json file in our extension root directory with a title.</p>
+<p>In the extension host, open up Command palette and type in the registered title to activate our extension.</p>
+<blockquote>
+<p>Hello world
+press enter and now we should be able to see that information message we’re looking for!</p></blockquote>
+<p>now if we want to make any changes we just have to go back to our source code, apply our wanted changes and press f5 again to re-run the extension host!</p>
+<p>now let’s do more interesting stuff by creating a WebView!</p>
+<p>Extension WebView
+VS Code is an Electron based application so it is technically like a browser that can render HTML or CSS and has the ability to run your own JavaScript!</p>
+<p>to programmatically render all of your web files we need to do the following:</p>
+<p>We add a function that returns a panel, for that panel we can set a html property which will be eventually rendered as a WebView in VS Code!</p>
+<p>now by pressing f5 again we should call our new command in the Command palette using:</p>
+<blockquote>
+<p>Show Panel
+and yeah this work! our html is now loaded and rendered like a browser INSIDE VS Code.</p></blockquote>
+<p>ok then now that we are able to import 3rd party CSS and JavaScript, all there’s to do is to have a Vuejs project built and them imported over the VS Code context.</p>
+<p>If that sounds like a lot of work it actually is! I already have built a template for you guys to use.</p>
+<p>Head over to my GitHub using the link below and clone the template, I will continue to explain how it works.</p>
+<p><a href="https://github.com/Mhdi-kr/vscode-webvue">https://github.com/Mhdi-kr/vscode-webvue</a></p>
+<p>Enter VS Code WebVue
+We have two packages, our extension package and our Vue package.</p>
+<p>In the vue package we have simple counter app we can open it up in the browser like all the other vue apps by running it in the development server</p>
+<p>After making changes to in the vue package, Nodemon scans for file changes and build our vue app to files with specific names, then those files are imported using VS Code file resolution API and injected into our HTML template string.</p>
+<p>The Nodemon also opens up an instance of VSCODE so we don&rsquo;t need to refresh manually. it also watches the extension’s source code as well restarting it if any changes are made, so this incredibly increases the ease of our DX.</p>
+<p>Now lets run to see our vue extension in action!</p>
+<p>yarn watch
+An instance of development host opens up containing our web files and registered command!</p>
+<blockquote>
+<p>Hello world
+Here you can see your vue project already built and injected using VSCode WebView API. you can utilize the full functionality of Vue js such as its amazing reactivity and its available plugins out of the box!</p></blockquote>
+<p>when you start developing on the /packages/client/ vue application directory, your changes will be watched using Nodemon, then rebuilt and be opened inside VS Code extension host ready to be used with VS Code Command palette!</p>
+<p>Inside the vue application code, the vscode object is globally injected and can be used to send messages to the VS Code runtime and perform tasks such as read/writing files, etc.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>[unfinished] Frontend Development Skilltree</title>
+      <link>http://localhost:3000/blog/frontend-development-skilltree/</link>
+      <pubDate>Sun, 05 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/frontend-development-skilltree/</guid>
+      <description>Roadmaps are great but skilltrees are more realistic.</description>
+      <content:encoded><![CDATA[<p>This repo is my honest endeavour to build a skill tree for frontend development. I&rsquo;m trying to come up with a skill tree that is as broad as possible, but still as specific as possible.</p>
+<p>Road maps are great for describing the order of steps taken in a project or a tutorial, but real life does not work like that in my opinion, for example in the infamous web development road map repo there&rsquo;s git and source control step in the very beginning of the road map.</p>
+<p>my real life did not start with git! I started web development messing around with pure HTML. not even a single line of js code was written! I did not consider myself proficient in git until my second or third job! so I think those do not represent my real life.</p>
+<p>In my opinion real life is much more like a tree, where you can go from a root node to any leaf node if you wanted! you can choose to learn a little bit HTML and css and decide to go and learn more about js without anyone forcing you to learn git (or any arbitrary technology) first.</p>
+<p>This is less overwhelming, and I think that&rsquo;s the value I want to bring to people with this repo.</p>
+<p>tired of learning about react hooks or redux? why don&rsquo;t you hop onto CSS and animations to spice things up?</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>[unfinished] Webassembly, whats whys and hows</title>
+      <link>http://localhost:3000/blog/introduction-to-web-assembly/</link>
+      <pubDate>Tue, 23 Nov 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/introduction-to-web-assembly/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>pieces of advice for my junior developer self</title>
+      <link>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</link>
+      <pubDate>Sat, 02 Oct 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</guid>
+      <description>The most important tips I would give myself to become a better developer</description>
+      <content:encoded><![CDATA[<p>When I joined the Alibaba Travels company, I was tasked to maintain and migrate the hotel CRS (Central Reservation System) panel. It was developed using Vue.js 2.6, webpack, bootstrap-vue UI component library. There used to be a lot of technical debts and anti-patterns such as prop-drilling and excess use of mixins, etc. We were in dire need of a big change.</p>
+<p>There were a lot of ups and downs, but after 3 to 4 months I was able to replace Vue 2 with Vue 3, Webpack with Vite, configured cypress and testing environments, resolved breaking changes and last but not least, migrate ALL of the used SFC (single file components) to use a totally different UI component library with different props, design and behavior!</p>
+<p>All of the said changes were committed to the same git repository but in a different branch! Just like natural selection, I knew we could not afford to redo things from scratch. This is how we get to my first point here.</p>
+<h3 id="prefer-changing-existing-code-to-redoing-everything-from-scratch">Prefer changing existing code to redoing everything from scratch</h3>
+<p>There were a lot of pieces of code that I could reuse in the migration without any problems such as the custom date and currency plugins and utils, backend API integration sdks, reusable general components that existed in the codebase, etc.</p>
+<p>I tried to do as little change as possible in terms of removing whole code sections or components and rewriting them, but I have to admit, sometimes you just cannot do it.</p>
+<p>I tried to rewrite one of our views about supplier CRUD actions from scratch, my estimated time for the task was one week. It took two to finish while fixing a lot of unpredicted bugs in the meantime. I learned something important, when migrating code especially if the requirements are the same as before and there’s nothing to drastically change, improve upon code that already exists. the heavy lifting is already done. you can deliver faster with higher quality that isn’t rushed.</p>
+<h3 id="premature-optimization-is-the-root-of-all-evil">Premature optimization is the root of all evil</h3>
+<p>Always implement things when you need them and never when you foresee that you might need them.</p>
+<p>Premature optimization means postponing delivery in favor of making the perfect architecture which to some extent, is a fairy tale.</p>
+<p>Passionate developers tend to over-engineer their design and architecture. We crave optimizations in our designs and developments. These actions seem so exciting to us and we spend so much time on them that we forget about the product itself. Our number one goal should be to deliver value to the business.</p>
+<p>Over-engineering could be a great way to learn new things. However, the question is whether production code is the right place for experimenting or not.</p>
+<p>I learned that perfect code is not written overnight. it’s not a linear path to perfection. The nature of software development is of an onion. You have layers upon layers of iteration over the same thing to make it better every day. Like a painter that brushes over the same canvas over and over again that it becomes Starry night.</p>
+<h3 id="beware-of-abstractions">Beware of abstractions</h3>
+<blockquote>
+<p>“Duplicate code is cheaper than the wrong abstraction”</p></blockquote>
+<p>Abstractions are great because right ones simplify things in the long run, But if you try to abstract everything, you’re gonna lose your flexibility in adding features.</p>
+<p>Make sure you have developer’s experience (DX) in mind whenever you want to add some sort of abstraction or automation to your codebase.</p>
+<h3 id="know-your-environments-limitations">Know your environment&rsquo;s limitations</h3>
+<p>As a general rule of thumb, it is great practice to know the pitfalls and problems you’re likely to have using your language or framework of choice.</p>
+<p>For vue.js or any other framework/library that uses declarative programming and has tight coupling with states, it is so important to be able to keep track of state and side effects.</p>
+<p>Declarative programming without a good side-effect management is just imperative programming with more steps.</p>
+<h3 id="embrace-humility">Embrace humility</h3>
+<p>At the time of migration, I did not know the answer to a lot of my questions. I learned to constantly ask other teams about solutions and suggestions, alongside my own research.</p>
+<p>Don’t be afraid to ask questions, You can’t know it all. You have to decide how much of a generalist you want to be, and how much of a specialist you want to be.</p>
+<h3 id="gain-domain-knowledge-as-soon-as-possible">Gain domain knowledge as soon as possible</h3>
+<p>Without domain knowledge, you will not be using 100% of your technical skills. No matter how good you are in your tech stack, you need domain knowledge to use it.</p>
+<p>Domain knowledge lets you foresee problems that haven’t occurred yet and avoid them beforehand, whether it is the implementation of complex UIs or the architecture design of a MongoDB schema.</p>
+<p>Take time to know the business, ask questions, set meetings. remember you’re only here to support your business.</p>
+<h3 id="get-in-touch-with-users-directly-or-indirectly">Get in touch with users, directly or indirectly</h3>
+<p>It always feels good when your direct users thank you for your app’s features, and it is eye-opening to see how exactly they interact with it and what they expect from it.</p>
+<p>The best-case scenario is where a developer can afford regular meetings with users and stakeholders and collect a list of to-dos that will be added in near future.</p>
+<p>Connecting with users can create a positive feedback loop that will benefit both you and them.</p>
+<h3 id="automate-what-you-can-especially-mundane-and-repetitive-tasks">Automate what you can especially mundane and repetitive tasks</h3>
+<p>There are a number of repeatable tasks we do every that can be automated and drastically speed up our process.</p>
+<p>One example of automation in my workload was an optimization pipeline for our SVG components. I developed a little script that I run to generate Optimized SFC Vue components from SVG files to lazy load them where I need them. here&rsquo;s the node program for it:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">// optimizer.js
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;fs&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kr">const</span> <span class="p">{</span> <span class="nx">optimize</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;svgo&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="kr">const</span> <span class="nx">optimizer</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">({</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="kr">import</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">optimizer</span><span class="p">(</span><span class="nx">readFiles</span><span class="p">(</span><span class="nx">arg</span><span class="p">)),</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">    <span class="nx">optimize</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">optimizer</span><span class="p">(</span><span class="nx">optimizeItems</span><span class="p">(</span><span class="nx">arg</span><span class="p">)),</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="kr">export</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">writeComponents</span><span class="p">(</span><span class="nx">arg</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="kr">const</span> <span class="nx">readFiles</span> <span class="o">=</span> <span class="p">(</span><span class="nx">paths</span><span class="p">)</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="nx">paths</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">filePath</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">({</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">        <span class="nx">path</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">        <span class="nx">content</span> <span class="o">=</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="nx">filePath</span><span class="p">,</span> <span class="s2">&#34;utf8&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">    <span class="p">}));</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="kr">const</span> <span class="nx">optimizeItems</span> <span class="o">=</span> <span class="p">(</span><span class="nx">contents</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">contents</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">optimize</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">
+</span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="kr">const</span> <span class="nx">writeComponents</span> <span class="o">=</span> <span class="p">(</span><span class="nx">items</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">    <span class="nx">items</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">        <span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="nx">component</span><span class="p">.</span><span class="nx">path</span><span class="p">,</span> <span class="nx">component</span><span class="p">.</span><span class="nx">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">24</span><span class="cl">
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="nx">optimizer</span><span class="p">([</span><span class="s2">&#34;foo.svg&#34;</span><span class="p">,</span> <span class="s2">&#34;bar.svg&#34;</span><span class="p">]).</span><span class="kr">import</span><span class="p">().</span><span class="nx">optimize</span><span class="p">().</span><span class="kr">export</span><span class="p">();</span></span></span></code></pre></div><p>Get to know the automation tricks your IDE of choice will provide you. This will drastically increase your workflows speed as the time moves on.
+Learn to use regex, it can help you find patterns in your codebase saving you hours of manual searching in large code bases. If you use vim, create macros for your most frequent actions.</p>
+<h3 id="start-small-and-be-consistent">Start small and be consistent</h3>
+<p>Working on large software applications is daunting. Chopping up big tasks into smaller, doable sub-tasks and focus on them one at a time until there’s no subtask is left. This method was famously used by Napoleon called &ldquo;divide and conquer&rdquo; and it just works.</p>
+<p>you can eat an elephant one peace at a time, lay the bricks until the wall is done. fast iteration, fast correction, fast delivery will get you through hell.</p>
+<h3 id="beware-of-burnout">Beware of burnout</h3>
+<p>I am passionate about my profession. I don’t feel time passing by when I’m working, but, everyone has a limited amount of energy and mental capacity each and every day and this is just a fact.</p>
+<p>Just take breaks to sharpen your axe. Make sure you have enough physical resources, food and sleep to keep you going.</p>
+<p>Take a great care of yourself and health, because it is priceless.</p>
+<h3 id="take-responsibility-and-bury-your-burden">Take responsibility and bury your burden</h3>
+<p>Get to work. stop blaming legacy code, previous developers, or decisions made before you. It is all gone and past. You’re the player now, you’re the one everyone will blame or praise afterwards. The choice is only yours.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>making the worlds dumbest two axis robotic arm</title>
+      <link>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</link>
+      <pubDate>Tue, 10 Dec 2019 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</guid>
+      <description>How to handle precious memory in embeded systems and MCUs</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>memory management in arduino</title>
+      <link>http://localhost:3000/blog/memory-management-in-arduino/</link>
+      <pubDate>Sun, 25 Nov 2018 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/memory-management-in-arduino/</guid>
+      <description>How to handle precious memory in embeded systems and MCUs</description>
+      <content:encoded><![CDATA[<h3 id="random-access-memory-types">Random access memory types</h3>
+<h4 id="sram">SRAM</h4>
+<p>Static Random Access Memory</p>
+<h4 id="eeprom">EEPROM</h4>
+<p>Electrically Erasable Programmable Read-only Memory</p>
+<h4 id="flash-memory">Flash memory</h4>
+<h3 id="possible-optimizations">Possible optimizations</h3>
+<h4 id="software">Software</h4>
+<p>use <code>PROGMEM</code>
+what it does is</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">const</span> <span class="n">dataType</span> <span class="n">variableName</span><span class="p">[]</span> <span class="n">PROGMEM</span> <span class="o">=</span> <span class="p">{};</span> <span class="c1">// use this form
+</span></span></span></code></pre></div><h4 id="serverside">Serverside</h4>
+<p>Do the heavy lifiting on the server. provide lightweight interface for arduino to work with.</p>
+<h3 id="problems-ahead">Problems ahead</h3>
+<h4 id="memory-fragmentations">Memory fragmentations</h4>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

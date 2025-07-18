@@ -9,13 +9,29 @@
     <managingEditor>mhdi_kr@outlook.com (Mahdi Karimi)</managingEditor>
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
-    <lastBuildDate>Mon, 08 Aug 2022 01:47:16 +0330</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 01:47:16 +0330</lastBuildDate>
     <atom:link href="http://localhost:3000/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Life lessons I&#39;ve learned playing Chess</title>
+      <link>http://localhost:3000/blog/life-lessons-from-chess/</link>
+      <pubDate>Fri, 18 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
+      <guid>http://localhost:3000/blog/life-lessons-from-chess/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;develop your pieces as realy as possible, put them on good squares&lt;/li&gt;&#xA;&lt;li&gt;blunder-check your moves&lt;/li&gt;&#xA;&lt;li&gt;always develop forward&lt;/li&gt;&#xA;&lt;li&gt;develop knights before bishops&lt;/li&gt;&#xA;&lt;li&gt;take advantage of your opponents&amp;rsquo; mistakes&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <content:encoded><![CDATA[<ol>
+<li>develop your pieces as realy as possible, put them on good squares</li>
+<li>blunder-check your moves</li>
+<li>always develop forward</li>
+<li>develop knights before bishops</li>
+<li>take advantage of your opponents&rsquo; mistakes</li>
+<li></li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
       <title>philosophy of software design in vue.js applications</title>
-      <link>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</link>
+      <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>
       <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <guid>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
       <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
       <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
 <h3 id="complexity">Complexity</h3>
@@ -200,12 +216,12 @@ High-level modules should not import anything from low-level modules. Both shoul
     </item>
     <item>
       <title>maintaining my statically generated tech blog</title>
-      <link>http://localhost:3000/posts/maintaining-my-static-blog/</link>
+      <link>http://localhost:3000/blog/maintaining-my-static-blog/</link>
       <pubDate>Mon, 14 Mar 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/maintaining-my-static-blog/</guid>
+      <guid>http://localhost:3000/blog/maintaining-my-static-blog/</guid>
       <description>How I manage to maintain this blog using Notion, Next.js and Github Pages</description>
       <content:encoded><![CDATA[<h3 id="my-story">My story</h3>
-<p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination">but never actually put the time in to get it done</a>.
+<p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination/">but never actually put the time in to get it done</a>.
 Creating meaningful blog posts is not an easy task, might as well have systems and tools in place helping us do it faster and easier.</p>
 <p>I tried many different ways and flavors of blogging. Wordpress was heavyweight and clunky, Medium or other micro-blogging services did not just feel <em>right</em> to me. Naturally as a web developer, I wanted to have something of my own and make it from scratch.</p>
 <h3 id="github-pages">Github pages</h3>
@@ -243,9 +259,9 @@ The <code>getStaticProps</code> function is called by Next.js when the page is f
     </item>
     <item>
       <title>[unfinished] Frontend Development Skilltree</title>
-      <link>http://localhost:3000/posts/frontend-development-skilltree/</link>
+      <link>http://localhost:3000/blog/frontend-development-skilltree/</link>
       <pubDate>Sun, 05 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/frontend-development-skilltree/</guid>
+      <guid>http://localhost:3000/blog/frontend-development-skilltree/</guid>
       <description>Roadmaps are great but skilltrees are more realistic.</description>
       <content:encoded><![CDATA[<p>This repo is my honest endeavour to build a skill tree for frontend development. I&rsquo;m trying to come up with a skill tree that is as broad as possible, but still as specific as possible.</p>
 <p>Road maps are great for describing the order of steps taken in a project or a tutorial, but real life does not work like that in my opinion, for example in the infamous web development road map repo there&rsquo;s git and source control step in the very beginning of the road map.</p>
@@ -257,9 +273,9 @@ The <code>getStaticProps</code> function is called by Next.js when the page is f
     </item>
     <item>
       <title>[unfinished] Webassembly, whats whys and hows</title>
-      <link>http://localhost:3000/posts/introduction-to-web-assembly/</link>
+      <link>http://localhost:3000/blog/introduction-to-web-assembly/</link>
       <pubDate>Tue, 23 Nov 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/introduction-to-web-assembly/</guid>
+      <guid>http://localhost:3000/blog/introduction-to-web-assembly/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

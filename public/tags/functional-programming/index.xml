@@ -13,9 +13,9 @@
     <atom:link href="http://localhost:3000/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>understanding declarative javascript using monads</title>
-      <link>http://localhost:3000/posts/understanding-declarative-javascript-using-monads/</link>
+      <link>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</link>
       <pubDate>Wed, 03 May 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/posts/understanding-declarative-javascript-using-monads/</guid>
+      <guid>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</guid>
       <description>Monads in the simplest terms</description>
       <content:encoded><![CDATA[<p>As software engineers, a significant part of our work involves creating data pipelines where several steps involve initializing and converting values based on different data sources. However, handling exceptions and potential errors at each step can quickly make the code hard to follow and nested. In this article, we explore how the Maybe monad can help simplify data pipelines and improve code readability.</p>
 <h3 id="the-problem">The problem</h3>
