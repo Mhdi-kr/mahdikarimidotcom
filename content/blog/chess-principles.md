@@ -8,6 +8,8 @@ show = true
 
 The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
 
+{{< chess >}}
+
 ### 1. develop your minor pieces as early as possible, putting them on good squares
 
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.

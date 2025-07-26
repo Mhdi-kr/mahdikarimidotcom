@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C&#43;&#43; on Mahdi&#39;s Engineering</title>
-    <link>http://localhost:3000/tags/c&#43;&#43;/</link>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on Mahdi&#39;s Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,20 +10,20 @@
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
     <lastBuildDate>Tue, 10 Dec 2019 01:47:16 +0330</lastBuildDate>
-    <atom:link href="http://localhost:3000/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>making the worlds dumbest two axis robotic arm</title>
-      <link>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</link>
+      <link>http://localhost:1313/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</link>
       <pubDate>Tue, 10 Dec 2019 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</guid>
+      <guid>http://localhost:1313/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</guid>
       <description>How to handle precious memory in embeded systems and MCUs</description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>memory management in arduino</title>
-      <link>http://localhost:3000/blog/memory-management-in-arduino/</link>
+      <link>http://localhost:1313/blog/memory-management-in-arduino/</link>
       <pubDate>Sun, 25 Nov 2018 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/memory-management-in-arduino/</guid>
+      <guid>http://localhost:1313/blog/memory-management-in-arduino/</guid>
       <description>How to handle precious memory in embeded systems and MCUs</description>
       <content:encoded><![CDATA[<h3 id="random-access-memory-types">Random access memory types</h3>
 <h4 id="sram">SRAM</h4>

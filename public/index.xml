@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mahdi&#39;s Engineering</title>
-    <link>http://localhost:3000/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mahdi&#39;s Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,14 +10,34 @@
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
     <lastBuildDate>Fri, 18 Jul 2025 01:47:16 +0330</lastBuildDate>
-    <atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chess Principles</title>
-      <link>http://localhost:3000/blog/life-lessons-from-chess/</link>
+      <link>http://localhost:1313/blog/chess-principles/</link>
       <pubDate>Fri, 18 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/life-lessons-from-chess/</guid>
-      <description>&lt;p&gt;The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares&#34;&gt;1. develop your minor pieces as early as possible, putting them on good squares&lt;/h3&gt;&#xA;&lt;p&gt;what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/chess-principles/</guid>
+      <description>&lt;p&gt;The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.&lt;/p&gt;&#xA;&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css&#34;&gt;&#xA;    &lt;title&gt;Document&lt;/title&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;div id=&#34;board&#34;&gt;&lt;/div&gt;&#xA;&lt;/body&gt;&#xA;&#xA;&lt;script type=&#34;module&#34;&gt;&#xA;    import {Chessboard, FEN} from &#39;https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js&#39;&#xA;    new Chessboard(document.getElementById(&#34;board&#34;), {&#xA;        assetsUrl: &#34;https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/&#34;,&#xA;        position: FEN.start,&#xA;    })&#xA;&lt;/script&gt;&#xA;&lt;/html&gt;&#xA;&lt;h3 id=&#34;1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares&#34;&gt;1. develop your minor pieces as early as possible, putting them on good squares&lt;/h3&gt;&#xA;&lt;p&gt;what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="board"></div>
+</body>
+
+<script type="module">
+    import {Chessboard, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
+    new Chessboard(document.getElementById("board"), {
+        assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
+        position: FEN.start,
+    })
+</script>
+</html>
 <h3 id="1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares">1. develop your minor pieces as early as possible, putting them on good squares</h3>
 <p>what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.</p>
 <p>where to develop to? develop in the forward direction of your chess board, preferably in your opponent&rsquo;s half of the baord to create a threat.</p>
@@ -60,18 +80,18 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:3000/blog/second-post/</link>
+      <link>http://localhost:1313/blog/second-post/</link>
       <pubDate>Thu, 17 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/second-post/</guid>
+      <guid>http://localhost:1313/blog/second-post/</guid>
       <description>&lt;p&gt;second post&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>second post</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>overcoming the fear of forgetting what you read</title>
-      <link>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</link>
+      <link>http://localhost:1313/blog/being-afraid-about-losing-knowledge/</link>
       <pubDate>Thu, 17 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</guid>
+      <guid>http://localhost:1313/blog/being-afraid-about-losing-knowledge/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;“I cannot remember the books I&amp;rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When I read books, especially those on technology and psychology subjects (I&amp;rsquo;m not much into fiction), I often find myself wondering, &amp;ldquo;Why am I reading this if I&amp;rsquo;ll forget most of it later?&amp;rdquo;. This thought can be discouraging because our human brains tend to evaluate my daily activities based on the rewards I expect from getting them done.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>“I cannot remember the books I&rsquo;ve read any more than the meals I have eaten; even so, they have made me.” -Ralph Waldo Emerson</p></blockquote>
@@ -102,9 +122,9 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>Developing self-confidence as a software engineer</title>
-      <link>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</link>
+      <link>http://localhost:1313/blog/devevloping-confidence-as-a-software-engineer/</link>
       <pubDate>Wed, 22 Nov 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</guid>
+      <guid>http://localhost:1313/blog/devevloping-confidence-as-a-software-engineer/</guid>
       <description>&lt;h2 id=&#34;laying-down-the-knowledge-foundation&#34;&gt;Laying down the knowledge foundation&lt;/h2&gt;&#xA;&lt;p&gt;Understanding your knowledge involves breaking it down into four parts:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-things-you-know-that-you-know-known-knowns&#34;&gt;1. Things you know that you know (Known knowns)&lt;/h3&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve got a solid grasp on certain aspects in your field. These are the things you&amp;rsquo;ve done before, have a track record of success, and can easily replicate. Your confidence in these areas is based on proven experiences and successful projects, making them feel almost second nature.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="laying-down-the-knowledge-foundation">Laying down the knowledge foundation</h2>
 <p>Understanding your knowledge involves breaking it down into four parts:</p>
@@ -127,9 +147,9 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>why i won&#39;t deliberately use AI for programming</title>
-      <link>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</link>
+      <link>http://localhost:1313/blog/why-i-wont-use-ai-deliberately/</link>
       <pubDate>Thu, 24 Aug 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</guid>
+      <guid>http://localhost:1313/blog/why-i-wont-use-ai-deliberately/</guid>
       <description>Use AI for text-formatting, composing emails and other shallow tasks, but not for learning. learn it yourself.</description>
       <content:encoded><![CDATA[<p>As of 2023, with the emergence of generative AI and tools like chatGPT, the integration of AI into developers&rsquo; workflows has become quite common. AI now comprehends our code, offers suggestions, generates different kinds of tests, and provides explanations that would otherwise require manual searching on Google or Stack Overflow.</p>
 <p>Back in 2021, I had the opportunity to try out the beta version of Copilot, and I must say, it was truly astonishing (still is!). It significantly slashed the time I spent writing repetitive code, although there were instances when it ended up being a bit obtrusive. At that time, I began learning Go, but I had to disable the GitHub Copilot extension. This was because I was trying to grasp the language&rsquo;s syntax, but the extension was consistently auto-completing my code, creating a bit of a hindrance.</p>
@@ -140,9 +160,9 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>understanding declarative javascript using monads</title>
-      <link>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</link>
+      <link>http://localhost:1313/blog/understanding-declarative-javascript-using-monads/</link>
       <pubDate>Wed, 03 May 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</guid>
+      <guid>http://localhost:1313/blog/understanding-declarative-javascript-using-monads/</guid>
       <description>Monads in the simplest terms</description>
       <content:encoded><![CDATA[<p>As software engineers, a significant part of our work involves creating data pipelines where several steps involve initializing and converting values based on different data sources. However, handling exceptions and potential errors at each step can quickly make the code hard to follow and nested. In this article, we explore how the Maybe monad can help simplify data pipelines and improve code readability.</p>
 <h3 id="the-problem">The problem</h3>
@@ -216,9 +236,9 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>stop wasting your keystrokes, my honest rant without a clickbait</title>
-      <link>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</link>
+      <link>http://localhost:1313/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</link>
       <pubDate>Mon, 26 Dec 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</guid>
+      <guid>http://localhost:1313/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</guid>
       <description>Let&amp;rsquo;s talk about tech medium and click baits</description>
       <content:encoded><![CDATA[<p>I’ve been reading tech Medium for a few years now. There is this clickbait phenomena where authors tend to write something along the lines of:</p>
 <ul>
@@ -247,9 +267,9 @@ It also means responding attacks via counter-attacks, often creating multiple op
     </item>
     <item>
       <title>maintaining my sanity in a world full of new shiny technologies</title>
-      <link>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</link>
+      <link>http://localhost:1313/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</link>
       <pubDate>Mon, 19 Sep 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</guid>
+      <guid>http://localhost:1313/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</guid>
       <description>managing to keep calm and to continue learning in a noisy world</description>
       <content:encoded><![CDATA[<p>Software development field is moving too fast. It’s so hard to keep up 100% with latest trends and new technologies. In my opinion it is one the cons of becoming a software engineer. You have to be willing to study lots of new technologies on a daily basis to be able to stay fresh and relevant.</p>
 <p>Some of the technology trends are fad and short-lived. They are not going to be something that’s used by a lot of companies in the future but some of them are here to stay.</p>
@@ -278,9 +298,9 @@ Ending this short article with the notion that, there are many people who deeply
     </item>
     <item>
       <title>philosophy of software design in vue.js applications</title>
-      <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>
+      <link>http://localhost:1313/blog/philosophy-of-software-design-in-vue-js-applications/</link>
       <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <guid>http://localhost:1313/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
       <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
       <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
 <h3 id="complexity">Complexity</h3>
@@ -465,9 +485,9 @@ High-level modules should not import anything from low-level modules. Both shoul
     </item>
     <item>
       <title>maintaining my statically generated tech blog</title>
-      <link>http://localhost:3000/blog/maintaining-my-static-blog/</link>
+      <link>http://localhost:1313/blog/maintaining-my-static-blog/</link>
       <pubDate>Mon, 14 Mar 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/maintaining-my-static-blog/</guid>
+      <guid>http://localhost:1313/blog/maintaining-my-static-blog/</guid>
       <description>How I manage to maintain this blog using Notion, Next.js and Github Pages</description>
       <content:encoded><![CDATA[<h3 id="my-story">My story</h3>
 <p>I always wanted to have a personal blog, <a href="/blog/developers-productivty-and-procrastination/">but never actually put the time in to get it done</a>.
@@ -508,9 +528,9 @@ The <code>getStaticProps</code> function is called by Next.js when the page is f
     </item>
     <item>
       <title>Developer&#39;s Procrastination</title>
-      <link>http://localhost:3000/blog/developers-productivty-and-procrastination/</link>
+      <link>http://localhost:1313/blog/developers-productivty-and-procrastination/</link>
       <pubDate>Fri, 25 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/developers-productivty-and-procrastination/</guid>
+      <guid>http://localhost:1313/blog/developers-productivty-and-procrastination/</guid>
       <description>Potential causes, cures and possible solutions to developers&amp;rsquo; procrastination</description>
       <content:encoded><![CDATA[<blockquote>
 <p>I always wanted to learn/do that but never actually found time for it -me sometimes</p></blockquote>
@@ -569,9 +589,9 @@ SMART goals have the attributes that will help you have less friction towards st
     </item>
     <item>
       <title>[unfinished] Refactoring to Functional paradigm</title>
-      <link>http://localhost:3000/blog/functional-programming-crash-course/</link>
+      <link>http://localhost:1313/blog/functional-programming-crash-course/</link>
       <pubDate>Wed, 02 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/functional-programming-crash-course/</guid>
+      <guid>http://localhost:1313/blog/functional-programming-crash-course/</guid>
       <description>Dotchaining the non-dotchainable in Node JS</description>
       <content:encoded><![CDATA[<h3 id="what-we-already-know-about-developing-applications">What we already know about developing applications</h3>
 <p>we start with names, key-value pairs, ifs and elses, iteration and procedures.
@@ -640,9 +660,9 @@ three main functions to do certain tasks. then aggregate these functions in <cod
     </item>
     <item>
       <title>making a vscode extension using vue ecosystem</title>
-      <link>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</link>
+      <link>http://localhost:1313/blog/making-a-vscode-extension-using-vue-ecosystem/</link>
       <pubDate>Sun, 12 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</guid>
+      <guid>http://localhost:1313/blog/making-a-vscode-extension-using-vue-ecosystem/</guid>
       <description>Using vue 3, vite and TypeScript, we try to make a vscode extension</description>
       <content:encoded><![CDATA[<p>Hello friends, Today I’m going to show you how you can make a VS Code extension using WebView panels and Vue 3.</p>
 <p>Our First “Hello World” Extension
@@ -690,9 +710,9 @@ Here you can see your vue project already built and injected using VSCode WebVie
     </item>
     <item>
       <title>[unfinished] Frontend Development Skilltree</title>
-      <link>http://localhost:3000/blog/frontend-development-skilltree/</link>
+      <link>http://localhost:1313/blog/frontend-development-skilltree/</link>
       <pubDate>Sun, 05 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/frontend-development-skilltree/</guid>
+      <guid>http://localhost:1313/blog/frontend-development-skilltree/</guid>
       <description>Roadmaps are great but skilltrees are more realistic.</description>
       <content:encoded><![CDATA[<p>This repo is my honest endeavour to build a skill tree for frontend development. I&rsquo;m trying to come up with a skill tree that is as broad as possible, but still as specific as possible.</p>
 <p>Road maps are great for describing the order of steps taken in a project or a tutorial, but real life does not work like that in my opinion, for example in the infamous web development road map repo there&rsquo;s git and source control step in the very beginning of the road map.</p>
@@ -704,17 +724,17 @@ Here you can see your vue project already built and injected using VSCode WebVie
     </item>
     <item>
       <title>[unfinished] Webassembly, whats whys and hows</title>
-      <link>http://localhost:3000/blog/introduction-to-web-assembly/</link>
+      <link>http://localhost:1313/blog/introduction-to-web-assembly/</link>
       <pubDate>Tue, 23 Nov 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/introduction-to-web-assembly/</guid>
+      <guid>http://localhost:1313/blog/introduction-to-web-assembly/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>pieces of advice for my junior developer self</title>
-      <link>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</link>
+      <link>http://localhost:1313/blog/pieces-of-advice-for-my-junior-developer-self/</link>
       <pubDate>Sat, 02 Oct 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</guid>
+      <guid>http://localhost:1313/blog/pieces-of-advice-for-my-junior-developer-self/</guid>
       <description>The most important tips I would give myself to become a better developer</description>
       <content:encoded><![CDATA[<p>When I joined the Alibaba Travels company, I was tasked to maintain and migrate the hotel CRS (Central Reservation System) panel. It was developed using Vue.js 2.6, webpack, bootstrap-vue UI component library. There used to be a lot of technical debts and anti-patterns such as prop-drilling and excess use of mixins, etc. We were in dire need of a big change.</p>
 <p>There were a lot of ups and downs, but after 3 to 4 months I was able to replace Vue 2 with Vue 3, Webpack with Vite, configured cypress and testing environments, resolved breaking changes and last but not least, migrate ALL of the used SFC (single file components) to use a totally different UI component library with different props, design and behavior!</p>
@@ -796,17 +816,17 @@ Learn to use regex, it can help you find patterns in your codebase saving you ho
     </item>
     <item>
       <title>making the worlds dumbest two axis robotic arm</title>
-      <link>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</link>
+      <link>http://localhost:1313/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</link>
       <pubDate>Tue, 10 Dec 2019 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</guid>
+      <guid>http://localhost:1313/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</guid>
       <description>How to handle precious memory in embeded systems and MCUs</description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>memory management in arduino</title>
-      <link>http://localhost:3000/blog/memory-management-in-arduino/</link>
+      <link>http://localhost:1313/blog/memory-management-in-arduino/</link>
       <pubDate>Sun, 25 Nov 2018 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/memory-management-in-arduino/</guid>
+      <guid>http://localhost:1313/blog/memory-management-in-arduino/</guid>
       <description>How to handle precious memory in embeded systems and MCUs</description>
       <content:encoded><![CDATA[<h3 id="random-access-memory-types">Random access memory types</h3>
 <h4 id="sram">SRAM</h4>

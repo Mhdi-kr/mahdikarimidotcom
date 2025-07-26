@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3000/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/frontend/</loc>
+    <loc>http://localhost:1313/blog/chess-principles/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/life-lessons-from-chess/</loc>
+    <loc>http://localhost:1313/tags/life/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/life/</loc>
+    <loc>http://localhost:1313/blog/second-post/</loc>
     <lastmod>2025-07-17T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/second-post/</loc>
+    <loc>http://localhost:1313/blog/being-afraid-about-losing-knowledge/</loc>
     <lastmod>2025-07-17T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</loc>
-    <lastmod>2025-07-17T01:47:16+03:30</lastmod>
-  </url><url>
-    <loc>http://localhost:3000/blog/devevloping-confidence-as-a-software-engineer/</loc>
+    <loc>http://localhost:1313/blog/devevloping-confidence-as-a-software-engineer/</loc>
     <lastmod>2023-11-22T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/why-i-wont-use-ai-deliberately/</loc>
+    <loc>http://localhost:1313/blog/why-i-wont-use-ai-deliberately/</loc>
     <lastmod>2023-08-24T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/functional-programming/</loc>
+    <loc>http://localhost:1313/tags/functional-programming/</loc>
     <lastmod>2023-05-03T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</loc>
+    <loc>http://localhost:1313/blog/understanding-declarative-javascript-using-monads/</loc>
     <lastmod>2023-05-03T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</loc>
+    <loc>http://localhost:1313/blog/stop-wasting-your-keystrokes-my-honest-rant-without-a-clickbait/</loc>
     <lastmod>2022-12-26T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</loc>
+    <loc>http://localhost:1313/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</loc>
     <lastmod>2022-09-19T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/vue/</loc>
+    <loc>http://localhost:1313/tags/vue/</loc>
     <lastmod>2022-09-19T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</loc>
+    <loc>http://localhost:1313/tags/frontend/</loc>
     <lastmod>2022-08-08T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/maintaining-my-static-blog/</loc>
+    <loc>http://localhost:1313/blog/philosophy-of-software-design-in-vue-js-applications/</loc>
+    <lastmod>2022-08-08T01:47:16+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/maintaining-my-static-blog/</loc>
     <lastmod>2022-03-14T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/developers-productivty-and-procrastination/</loc>
+    <loc>http://localhost:1313/blog/developers-productivty-and-procrastination/</loc>
     <lastmod>2022-02-25T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/functional-programming-crash-course/</loc>
+    <loc>http://localhost:1313/blog/functional-programming-crash-course/</loc>
     <lastmod>2022-02-02T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2022-02-02T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/tutorial/</loc>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
     <lastmod>2022-02-02T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</loc>
+    <loc>http://localhost:1313/blog/making-a-vscode-extension-using-vue-ecosystem/</loc>
     <lastmod>2021-12-12T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/frontend-development-skilltree/</loc>
+    <loc>http://localhost:1313/blog/frontend-development-skilltree/</loc>
     <lastmod>2021-12-05T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/introduction-to-web-assembly/</loc>
+    <loc>http://localhost:1313/blog/introduction-to-web-assembly/</loc>
     <lastmod>2021-11-23T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/pieces-of-advice-for-my-junior-developer-self/</loc>
+    <loc>http://localhost:1313/blog/pieces-of-advice-for-my-junior-developer-self/</loc>
     <lastmod>2021-10-02T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2019-12-10T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/tags/embeded/</loc>
+    <loc>http://localhost:1313/tags/embeded/</loc>
     <lastmod>2019-12-10T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</loc>
+    <loc>http://localhost:1313/blog/making-the-worlds-dumbest-two-axis-robotic-arm/</loc>
     <lastmod>2019-12-10T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/memory-management-in-arduino/</loc>
+    <loc>http://localhost:1313/blog/memory-management-in-arduino/</loc>
     <lastmod>2018-11-25T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
