@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vue on Mahdi&#39;s Engineering</title>
-    <link>http://localhost:3000/tags/vue/</link>
+    <link>http://localhost:1313/tags/vue/</link>
     <description>Recent content in Vue on Mahdi&#39;s Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,12 +10,12 @@
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
     <lastBuildDate>Mon, 19 Sep 2022 01:47:16 +0330</lastBuildDate>
-    <atom:link href="http://localhost:3000/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>maintaining my sanity in a world full of new shiny technologies</title>
-      <link>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</link>
+      <link>http://localhost:1313/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</link>
       <pubDate>Mon, 19 Sep 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</guid>
+      <guid>http://localhost:1313/blog/maintaining-my-sanity-in-a-world-full-of-new-shiny-technologies/</guid>
       <description>managing to keep calm and to continue learning in a noisy world</description>
       <content:encoded><![CDATA[<p>Software development field is moving too fast. It’s so hard to keep up 100% with latest trends and new technologies. In my opinion it is one the cons of becoming a software engineer. You have to be willing to study lots of new technologies on a daily basis to be able to stay fresh and relevant.</p>
 <p>Some of the technology trends are fad and short-lived. They are not going to be something that’s used by a lot of companies in the future but some of them are here to stay.</p>
@@ -44,9 +44,9 @@ Ending this short article with the notion that, there are many people who deeply
     </item>
     <item>
       <title>philosophy of software design in vue.js applications</title>
-      <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>
+      <link>http://localhost:1313/blog/philosophy-of-software-design-in-vue-js-applications/</link>
       <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
+      <guid>http://localhost:1313/blog/philosophy-of-software-design-in-vue-js-applications/</guid>
       <description>Understanding complexity, its symptoms and causes related to Vue.js applications</description>
       <content:encoded><![CDATA[<p>Recently I finished reading a great book called “A Philosophy of Software Design” written by John Ousterhout. In this article, I am going to distill everything I’ve learned throughout my journey and try to apply them to Vue.js ecosystem.</p>
 <h3 id="complexity">Complexity</h3>
@@ -231,9 +231,9 @@ High-level modules should not import anything from low-level modules. Both shoul
     </item>
     <item>
       <title>making a vscode extension using vue ecosystem</title>
-      <link>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</link>
+      <link>http://localhost:1313/blog/making-a-vscode-extension-using-vue-ecosystem/</link>
       <pubDate>Sun, 12 Dec 2021 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</guid>
+      <guid>http://localhost:1313/blog/making-a-vscode-extension-using-vue-ecosystem/</guid>
       <description>Using vue 3, vite and TypeScript, we try to make a vscode extension</description>
       <content:encoded><![CDATA[<p>Hello friends, Today I’m going to show you how you can make a VS Code extension using WebView panels and Vue 3.</p>
 <p>Our First “Hello World” Extension
