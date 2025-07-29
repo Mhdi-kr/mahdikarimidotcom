@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/extensions/arrows/arrows.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,10 +12,29 @@
 </body>
 
 <script type="module">
-    import {Chessboard, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
-    new Chessboard(document.getElementById("board"), {
+    import {Chessboard,PIECE, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
+    import {ARROW_TYPE, Arrows} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/src/extensions/arrows/Arrows.js'
+    const cb = new Chessboard(document.getElementById("board"), {
         assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
-        position: FEN.start,
+        position: 'r1bqkb1r/p1p1n1pp/1pnp1p2/4p3/2B1P3/2NPBN2/PPPQ1PPP/R3K2R b KQkq - 0 1',
+        extensions: [
+            {
+                class: Arrows,
+            }
+        ]
     })
+    console.log(PIECE.bn)
+    setTimeout(()=>cb.movePiece("e4", PIECE.bn, true), 1000)
+
+    setTimeout(async () => {
+        await Promise.all([
+            cb.movePiece('h1', 'f1', true),
+            cb.movePiece('e1', 'g1', true)
+        ])
+        await Promise.all([
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "a1"),
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "f2")
+        ])
+    }, 1000)
 </script>
 </html>

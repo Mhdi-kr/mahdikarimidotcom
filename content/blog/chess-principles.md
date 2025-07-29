@@ -8,8 +8,6 @@ show = true
 
 The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
 
-{{< chess >}}
-
 ### 1. develop your minor pieces as early as possible, putting them on good squares
 
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.
@@ -38,9 +36,11 @@ trade your bad peices for opponent's good peices for exmaple if the center pawn 
 
 chess is a turn based game where players can move their peices one move at a time, if performing legal moves in chess can help us achieve more than one goal we should consider it, for example, castling king side as white where the queen and other minor pieces have already been developed helps achieve three things:
 
+{{< chess >}}
+
 1. it connects the rooks, connected rooks defend each other.
 2. it moves the king to a very safe spot, no more annoying checks.
-3. the rook now defends the c7 pawn, which can be activated by trading that c7 pawn later in the game.
+3. the rook now defends the f2 pawn, which can be activated by trading that f2 pawn later in the game.
 
 ### 4. blunder-check your moves
 

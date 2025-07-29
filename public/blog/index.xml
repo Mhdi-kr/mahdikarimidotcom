@@ -16,28 +16,8 @@
       <link>http://localhost:1313/blog/chess-principles/</link>
       <pubDate>Fri, 18 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
       <guid>http://localhost:1313/blog/chess-principles/</guid>
-      <description>&lt;p&gt;The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.&lt;/p&gt;&#xA;&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css&#34;&gt;&#xA;    &lt;title&gt;Document&lt;/title&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;div id=&#34;board&#34;&gt;&lt;/div&gt;&#xA;&lt;/body&gt;&#xA;&#xA;&lt;script type=&#34;module&#34;&gt;&#xA;    import {Chessboard, FEN} from &#39;https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js&#39;&#xA;    new Chessboard(document.getElementById(&#34;board&#34;), {&#xA;        assetsUrl: &#34;https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/&#34;,&#xA;        position: FEN.start,&#xA;    })&#xA;&lt;/script&gt;&#xA;&lt;/html&gt;&#xA;&lt;h3 id=&#34;1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares&#34;&gt;1. develop your minor pieces as early as possible, putting them on good squares&lt;/h3&gt;&#xA;&lt;p&gt;what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares&#34;&gt;1. develop your minor pieces as early as possible, putting them on good squares&lt;/h3&gt;&#xA;&lt;p&gt;what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
-    <title>Document</title>
-</head>
-<body>
-<div id="board"></div>
-</body>
-
-<script type="module">
-    import {Chessboard, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
-    new Chessboard(document.getElementById("board"), {
-        assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
-        position: FEN.start,
-    })
-</script>
-</html>
 <h3 id="1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares">1. develop your minor pieces as early as possible, putting them on good squares</h3>
 <p>what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.</p>
 <p>where to develop to? develop in the forward direction of your chess board, preferably in your opponent&rsquo;s half of the baord to create a threat.</p>
@@ -51,10 +31,50 @@
 <p>trade your bad peices for opponent&rsquo;s good peices for exmaple if the center pawn chain is on the white squares you could trade your white bishop for the opponent&rsquo;s (for example) powerful knight.</p>
 <h3 id="if-you-could-do-multiple-things-at-once">If you could, do multiple things at once</h3>
 <p>chess is a turn based game where players can move their peices one move at a time, if performing legal moves in chess can help us achieve more than one goal we should consider it, for example, castling king side as white where the queen and other minor pieces have already been developed helps achieve three things:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/extensions/arrows/arrows.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="board"></div>
+</body>
+
+<script type="module">
+    import {Chessboard,PIECE, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
+    import {ARROW_TYPE, Arrows} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/src/extensions/arrows/Arrows.js'
+    const cb = new Chessboard(document.getElementById("board"), {
+        assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
+        position: 'r1bqkb1r/p1p1n1pp/1pnp1p2/4p3/2B1P3/2NPBN2/PPPQ1PPP/R3K2R b KQkq - 0 1',
+        extensions: [
+            {
+                class: Arrows,
+            }
+        ]
+    })
+    console.log(PIECE.bn)
+    setTimeout(()=>cb.movePiece("e4", PIECE.bn, true), 1000)
+
+    setTimeout(async () => {
+        await Promise.all([
+            cb.movePiece('h1', 'f1', true),
+            cb.movePiece('e1', 'g1', true)
+        ])
+        await Promise.all([
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "a1"),
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "f2")
+        ])
+    }, 1000)
+</script>
+</html>
 <ol>
 <li>it connects the rooks, connected rooks defend each other.</li>
 <li>it moves the king to a very safe spot, no more annoying checks.</li>
-<li>the rook now defends the c7 pawn, which can be activated by trading that c7 pawn later in the game.</li>
+<li>the rook now defends the f2 pawn, which can be activated by trading that f2 pawn later in the game.</li>
 </ol>
 <h3 id="4-blunder-check-your-moves">4. blunder-check your moves</h3>
 <p>Obviosly we don&rsquo;t want to hang our queen in the move 5th right?</p>
