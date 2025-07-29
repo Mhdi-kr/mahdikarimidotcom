@@ -9,20 +9,6 @@
 <title>Chess Principles | Mahdi&#39;s Engineering</title>
 <meta name="title" content="Chess Principles" />
 <meta name="description" content="The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
-&lt;!DOCTYPE html&gt;
-
-
-    
-    
-    
-    Document
-
-
-
-
-
-
-
 1. develop your minor pieces as early as possible, putting them on good squares
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks." />
 <meta name="author" content="" />
@@ -55,20 +41,6 @@ what piece to develop? pawns in the center, develop knights before bishops, quee
 
 <meta property="og:title" content="Chess Principles" />
 <meta property="og:description" content="The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
-&lt;!DOCTYPE html&gt;
-
-
-    
-    
-    
-    Document
-
-
-
-
-
-
-
 1. develop your minor pieces as early as possible, putting them on good squares
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks." />
 <meta property="og:type" content="article" />
@@ -85,20 +57,6 @@ what piece to develop? pawns in the center, develop knights before bishops, quee
 <meta name="twitter:image" content="http://localhost:1313/images/social_card_bg_hu_963a2f973edba32b.webp"/>
 <meta name="twitter:title" content="Chess Principles"/>
 <meta name="twitter:description" content="The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
-&lt;!DOCTYPE html&gt;
-
-
-    
-    
-    
-    Document
-
-
-
-
-
-
-
 1. develop your minor pieces as early as possible, putting them on good squares
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks."/>
 <meta name="twitter:site" content="@mhdi_kr"/>
@@ -107,20 +65,6 @@ what piece to develop? pawns in the center, develop knights before bishops, quee
 
 <meta itemprop="name" content="Chess Principles">
 <meta itemprop="description" content="The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.
-&lt;!DOCTYPE html&gt;
-
-
-    
-    
-    
-    Document
-
-
-
-
-
-
-
 1. develop your minor pieces as early as possible, putting them on good squares
 what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks."><meta itemprop="datePublished" content="2025-07-18T01:47:16+03:30" />
 <meta itemprop="dateModified" content="2025-07-18T01:47:16+03:30" />
@@ -173,26 +117,6 @@ what piece to develop? pawns in the center, develop knights before bishops, quee
 
 <content>
   <p>The intersting thing about these principls is that when you try to stay true to them even though you do not necessarly know the lines, it only takes your opponent 2 or 3 mistakes for them to lose the game to you.</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
-    <title>Document</title>
-</head>
-<body>
-<div id="board"></div>
-</body>
-
-<script type="module">
-    import {Chessboard, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
-    new Chessboard(document.getElementById("board"), {
-        assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
-        position: FEN.start,
-    })
-</script>
-</html>
 <h3 id="1-develop-your-minor-pieces-as-early-as-possible-putting-them-on-good-squares">1. develop your minor pieces as early as possible, putting them on good squares</h3>
 <p>what piece to develop? pawns in the center, develop knights before bishops, queen and then connect the rooks.</p>
 <p>where to develop to? develop in the forward direction of your chess board, preferably in your opponent&rsquo;s half of the baord to create a threat.</p>
@@ -206,10 +130,50 @@ what piece to develop? pawns in the center, develop knights before bishops, quee
 <p>trade your bad peices for opponent&rsquo;s good peices for exmaple if the center pawn chain is on the white squares you could trade your white bishop for the opponent&rsquo;s (for example) powerful knight.</p>
 <h3 id="if-you-could-do-multiple-things-at-once">If you could, do multiple things at once</h3>
 <p>chess is a turn based game where players can move their peices one move at a time, if performing legal moves in chess can help us achieve more than one goal we should consider it, for example, castling king side as white where the queen and other minor pieces have already been developed helps achieve three things:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8/assets/chessboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/extensions/arrows/arrows.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="board"></div>
+</body>
+
+<script type="module">
+    import {Chessboard,PIECE, FEN} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8/src/Chessboard.js'
+    import {ARROW_TYPE, Arrows} from 'https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/src/extensions/arrows/Arrows.js'
+    const cb = new Chessboard(document.getElementById("board"), {
+        assetsUrl: "https://cdn.jsdelivr.net/npm/cm-chessboard@8.7.8/assets/",
+        position: 'r1bqkb1r/p1p1n1pp/1pnp1p2/4p3/2B1P3/2NPBN2/PPPQ1PPP/R3K2R b KQkq - 0 1',
+        extensions: [
+            {
+                class: Arrows,
+            }
+        ]
+    })
+    console.log(PIECE.bn)
+    setTimeout(()=>cb.movePiece("e4", PIECE.bn, true), 1000)
+
+    setTimeout(async () => {
+        await Promise.all([
+            cb.movePiece('h1', 'f1', true),
+            cb.movePiece('e1', 'g1', true)
+        ])
+        await Promise.all([
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "a1"),
+            cb.addArrow({class: "arrow-pointy", slice: "arrowPointy", headSize: 5}, "f1", "f2")
+        ])
+    }, 1000)
+</script>
+</html>
 <ol>
 <li>it connects the rooks, connected rooks defend each other.</li>
 <li>it moves the king to a very safe spot, no more annoying checks.</li>
-<li>the rook now defends the c7 pawn, which can be activated by trading that c7 pawn later in the game.</li>
+<li>the rook now defends the f2 pawn, which can be activated by trading that f2 pawn later in the game.</li>
 </ol>
 <h3 id="4-blunder-check-your-moves">4. blunder-check your moves</h3>
 <p>Obviosly we don&rsquo;t want to hang our queen in the move 5th right?</p>
