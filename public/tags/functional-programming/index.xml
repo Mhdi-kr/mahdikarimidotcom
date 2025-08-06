@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Functional Programming on Mahdi&#39;s Engineering</title>
-    <link>http://localhost:1313/tags/functional-programming/</link>
+    <link>http://localhost:3000/tags/functional-programming/</link>
     <description>Recent content in Functional Programming on Mahdi&#39;s Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,12 +10,12 @@
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
     <lastBuildDate>Wed, 03 May 2023 01:47:16 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3000/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>understanding declarative javascript using monads</title>
-      <link>http://localhost:1313/blog/understanding-declarative-javascript-using-monads/</link>
+      <link>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</link>
       <pubDate>Wed, 03 May 2023 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:1313/blog/understanding-declarative-javascript-using-monads/</guid>
+      <guid>http://localhost:3000/blog/understanding-declarative-javascript-using-monads/</guid>
       <description>Monads in the simplest terms</description>
       <content:encoded><![CDATA[<p>As software engineers, a significant part of our work involves creating data pipelines where several steps involve initializing and converting values based on different data sources. However, handling exceptions and potential errors at each step can quickly make the code hard to follow and nested. In this article, we explore how the Maybe monad can help simplify data pipelines and improve code readability.</p>
 <h3 id="the-problem">The problem</h3>
