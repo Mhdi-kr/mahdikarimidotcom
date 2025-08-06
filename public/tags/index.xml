@@ -44,6 +44,7 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Frontend</title>
       <link>http://localhost:3000/tags/frontend/</link>
       <pubDate>Mon, 08 Aug 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
@@ -52,6 +53,8 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+=======
+>>>>>>> b1a246b9915166153b84f63ccd803bfffacbdb70
       <title>Javascript</title>
       <link>http://localhost:3000/tags/javascript/</link>
       <pubDate>Wed, 02 Feb 2022 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
