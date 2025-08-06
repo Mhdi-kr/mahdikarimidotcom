@@ -2,7 +2,7 @@
 title = "roadmaps vs skilltrees"
 date = "2021-12-05T01:47:16+03:30"
 summary = "Roadmaps are great but skilltrees are more realistic."
-tags = [`]
+tags = []
 show = true
 +++
 

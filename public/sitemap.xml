@@ -5,7 +5,7 @@
     <loc>http://localhost:3000/blog/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/life-lessons-from-chess/</loc>
+    <loc>http://localhost:3000/blog/chess-principles/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
   </url><url>
     <loc>http://localhost:3000/</loc>
@@ -16,9 +16,6 @@
   </url><url>
     <loc>http://localhost:3000/tags/</loc>
     <lastmod>2025-07-18T01:47:16+03:30</lastmod>
-  </url><url>
-    <loc>http://localhost:3000/blog/second-post/</loc>
-    <lastmod>2025-07-17T01:47:16+03:30</lastmod>
   </url><url>
     <loc>http://localhost:3000/blog/being-afraid-about-losing-knowledge/</loc>
     <lastmod>2025-07-17T01:47:16+03:30</lastmod>
@@ -68,7 +65,7 @@
     <loc>http://localhost:3000/blog/making-a-vscode-extension-using-vue-ecosystem/</loc>
     <lastmod>2021-12-12T01:47:16+03:30</lastmod>
   </url><url>
-    <loc>http://localhost:3000/blog/frontend-development-skilltree/</loc>
+    <loc>http://localhost:3000/blog/roadmaps-vs-skilltrees/</loc>
     <lastmod>2021-12-05T01:47:16+03:30</lastmod>
   </url><url>
     <loc>http://localhost:3000/blog/introduction-to-web-assembly/</loc>
