@@ -60,7 +60,7 @@
 <meta itemprop="name" content="making a vscode extension using vue ecosystem">
 <meta itemprop="description" content="Using vue 3, vite and TypeScript, we try to make a vscode extension"><meta itemprop="datePublished" content="2021-12-12T01:47:16+03:30" />
 <meta itemprop="dateModified" content="2021-12-12T01:47:16+03:30" />
-<meta itemprop="wordCount" content="720">
+<meta itemprop="wordCount" content="697">
 
 <meta itemprop="image" content="http://localhost:3000/images/social_card_bg_hu_ca3447da3f9accd8.webp"/>
 
@@ -73,10 +73,14 @@
   <link href="/original.min.css" rel="stylesheet">
 
   
-
+    
+    <link href="/syntax.min.css" rel="stylesheet">
   
 
   
+
+  <script defer data-domain="mahdikarimi.com" src="https://plausible.robio.ir/js/script.hash.outbound-links.pageview-props.tagged-events.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
 
 <body>
@@ -107,46 +111,82 @@
 </p>
 
 <content>
-  <p>Hello friends, Today I’m going to show you how you can make a VS Code extension using WebView panels and Vue 3.</p>
-<p>Our First “Hello World” Extension
-Let’s start with a simple extension that shows a message toast in the bottom right, shall we?</p>
+  <p>TLDR; <a href="https://github.com/Mhdi-kr/vscode-webvue">see the extension template repo</a></p>
+<h2 id="our-first-hello-world-extension">Our First “Hello World” Extension</h2>
+<p>Let’s start with a simple extension that shows a message toast in the bottom right, shall we?</p>
 <p>According to the VS Code official instructions, we first need to install the following two packages.</p>
-<p>$ npm install -g yo generator-code
-After installing these packages, We need to run this command to scaffold our basic extension.</p>
-<p>yo code
-After completing required steps in the CLI, we have a base extension that we can tinker with.</p>
-<p>In the extension.ts file generated we can see two callback functions = activate() and deactivate() .These functions are called in our extension’s lifecycle when starting and stopping.</p>
-<p>To test and run our extension go ahead and press F5 on the keyboard. This will open up a new VS Code instance called the “Development host” that has our extension loaded up locally.</p>
-<p>in the extension.ts file we can see a key with which our extension is registered in the Command palette. That key also has to be registered in the package.json file in our extension root directory with a title.</p>
-<p>In the extension host, open up Command palette and type in the registered title to activate our extension.</p>
-<blockquote>
-<p>Hello world
-press enter and now we should be able to see that information message we’re looking for!</p></blockquote>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">$ npm install -g yo generator-code</span></span></code></pre></div><p>then, We need to run this command to scaffold our basic extension.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">yo code</span></span></code></pre></div><p>After completing required steps in the CLI, we have a base extension that we can tinker with.</p>
+<p>In the <code>extension.ts</code> file generated we can see two callback functions:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="ln">1</span><span class="cl"><span class="kd">function</span> <span class="nx">activate() {</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="p">...</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="kd">function</span> <span class="nx">deactivate() {</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="p">...</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl"><span class="p">}</span></span></span></code></pre></div><p>These functions are called in our extension’s lifecycle when starting and stopping.</p>
+<p>To test and run our extension go ahead and press F5 on the keyboard (assuming you&rsquo;re using vscode, if you&rsquo;re not using vscode, why are u even reading this post? xD). This will open up a new VS Code instance called the “Development host” that has our extension loaded up locally.</p>
+<p>In the <code>extension.ts</code> file we can see a key with which our extension is registered in the <em>Command palette</em>. That key also has to be registered in the <code>package.json</code> file in our extension root directory with a title.</p>
+<p>In the extension host, open up <em>Command palette</em> and type in the registered title to activate our extension.</p>
+
+
+
+
+
+<pre tabindex="0"><code>command pallette shows:
+
+&gt; Hello world</code></pre><p>press <code>enter</code> and now we should be able to see that information message we’re looking for!</p>
 <p>now if we want to make any changes we just have to go back to our source code, apply our wanted changes and press f5 again to re-run the extension host!</p>
-<p>now let’s do more interesting stuff by creating a WebView!</p>
-<p>Extension WebView
-VS Code is an Electron based application so it is technically like a browser that can render HTML or CSS and has the ability to run your own JavaScript!</p>
-<p>to programmatically render all of your web files we need to do the following:</p>
+<h2 id="creating-a-webview">creating a WebView</h2>
+<p>VS Code is an Electron based application so it is technically like a browser that can render HTML or CSS and has the ability to run your own JavaScript.</p>
+<p>To programmatically render all of your web files we need to make the following happen:</p>
 <p>We add a function that returns a panel, for that panel we can set a html property which will be eventually rendered as a WebView in VS Code!</p>
 <p>now by pressing f5 again we should call our new command in the Command palette using:</p>
-<blockquote>
-<p>Show Panel
-and yeah this work! our html is now loaded and rendered like a browser INSIDE VS Code.</p></blockquote>
-<p>ok then now that we are able to import 3rd party CSS and JavaScript, all there’s to do is to have a Vuejs project built and them imported over the VS Code context.</p>
-<p>If that sounds like a lot of work it actually is! I already have built a template for you guys to use.</p>
-<p>Head over to my GitHub using the link below and clone the template, I will continue to explain how it works.</p>
-<p><a href="https://github.com/Mhdi-kr/vscode-webvue">https://github.com/Mhdi-kr/vscode-webvue</a></p>
-<p>Enter VS Code WebVue
-We have two packages, our extension package and our Vue package.</p>
+
+
+
+
+
+<pre tabindex="0"><code>command pallette should show:
+
+&gt; Show Panel</code></pre><p>and yeah this works! our html is now loaded and rendered like a browser INSIDE VS Code.</p>
+<p>Ok, then now that we are able to import 3rd party CSS and JavaScript, all there’s to do is to have a Vuejs project built and then imported over to the VS Code extension context.</p>
+<h2 id="too-much-work-theres-a-template-to-this-for-you">Too much work? There&rsquo;s a template to this for you</h2>
+<p><a href="https://github.com/Mhdi-kr/vscode-webvue">Enter VS Code WebVue</a></p>
+<p>In the template we have two packages, our extension package and our Vue package.</p>
 <p>In the vue package we have simple counter app we can open it up in the browser like all the other vue apps by running it in the development server</p>
 <p>After making changes to in the vue package, Nodemon scans for file changes and build our vue app to files with specific names, then those files are imported using VS Code file resolution API and injected into our HTML template string.</p>
 <p>The Nodemon also opens up an instance of VSCODE so we don&rsquo;t need to refresh manually. it also watches the extension’s source code as well restarting it if any changes are made, so this incredibly increases the ease of our DX.</p>
 <p>Now lets run to see our vue extension in action!</p>
-<p>yarn watch
-An instance of development host opens up containing our web files and registered command!</p>
-<blockquote>
-<p>Hello world
-Here you can see your vue project already built and injected using VSCode WebView API. you can utilize the full functionality of Vue js such as its amazing reactivity and its available plugins out of the box!</p></blockquote>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">yarn watch</span></span></code></pre></div><p>An instance of development host opens up containing our web files and registered command!</p>
+
+
+
+
+
+<pre tabindex="0"><code>in the command pallette:
+
+&gt; Hello world</code></pre><p>Here you can see your vue project already built and injected using VSCode WebView API. you can utilize the full functionality of Vue js such as its amazing reactivity and its available plugins out of the box!</p>
 <p>when you start developing on the /packages/client/ vue application directory, your changes will be watched using Nodemon, then rebuilt and be opened inside VS Code extension host ready to be used with VS Code Command palette!</p>
 <p>Inside the vue application code, the vscode object is globally injected and can be used to send messages to the VS Code runtime and perform tasks such as read/writing files, etc.</p>
 
@@ -169,6 +209,8 @@ Here you can see your vue project already built and injected using VSCode WebVie
   </main>
   <footer><small>
   Mahdi Karimi | since 2018
+  <br>
+  <span style="opacity: 0.25;">haters > dev/null</span>
 </small></footer>
 
     

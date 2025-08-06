@@ -9,24 +9,8 @@
     <managingEditor>mhdi_kr@outlook.com (Mahdi Karimi)</managingEditor>
     <webMaster>mhdi_kr@outlook.com (Mahdi Karimi)</webMaster>
     <copyright>Mahdi Karimi</copyright>
-    <lastBuildDate>Fri, 18 Jul 2025 01:47:16 +0330</lastBuildDate>
+    <lastBuildDate>Mon, 08 Aug 2022 01:47:16 +0330</lastBuildDate>
     <atom:link href="http://localhost:3000/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Life lessons I&#39;ve learned playing Chess</title>
-      <link>http://localhost:3000/blog/life-lessons-from-chess/</link>
-      <pubDate>Fri, 18 Jul 2025 01:47:16 +0330</pubDate><author>mhdi_kr@outlook.com (Mahdi Karimi)</author>
-      <guid>http://localhost:3000/blog/life-lessons-from-chess/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;develop your pieces as realy as possible, put them on good squares&lt;/li&gt;&#xA;&lt;li&gt;blunder-check your moves&lt;/li&gt;&#xA;&lt;li&gt;always develop forward&lt;/li&gt;&#xA;&lt;li&gt;develop knights before bishops&lt;/li&gt;&#xA;&lt;li&gt;take advantage of your opponents&amp;rsquo; mistakes&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-      <content:encoded><![CDATA[<ol>
-<li>develop your pieces as realy as possible, put them on good squares</li>
-<li>blunder-check your moves</li>
-<li>always develop forward</li>
-<li>develop knights before bishops</li>
-<li>take advantage of your opponents&rsquo; mistakes</li>
-<li></li>
-</ol>
-]]></content:encoded>
-    </item>
     <item>
       <title>philosophy of software design in vue.js applications</title>
       <link>http://localhost:3000/blog/philosophy-of-software-design-in-vue-js-applications/</link>

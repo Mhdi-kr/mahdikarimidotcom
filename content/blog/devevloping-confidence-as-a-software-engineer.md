@@ -29,7 +29,7 @@ Prioritize your knowledge gaps based on urgency and importance. Concentrate on h
 
 #### Going deep
 
-Opt for deep work over shallow work. Proficiency isn't accidental. it comes from intentional, deliberate and focused practice. Delve into your known unknowns with deliberate efforts to deepen your understanding.
+Opt for deep work over shallow work. Proficiency isn't accidental. it comes from intentional, deliberate and focused practice. dive into your known unknowns with deliberate efforts to deepen your understanding.
 
 ### 4. don't know that we know (Unknown unknowns)
 
@@ -37,6 +37,6 @@ There's a vast realm of things you're not even aware of not knowing. Exposure is
 
 ## The competence-confidence loop
 
-Engaging in tasks that initially seem intimidating is crucial. Success or failure, each experience contributes to personal growth. Recognize that failures are stepping stones to success. Through this continuous cycle, not only do you become more competent, but you also boost your confidence as a software engineer. Remember, the key is to keep growing and evolving.
+Engaging in tasks that initially seem intimidating is important. Success or failure, each experience contributes to personal growth. Recognize that failures are stepping stones to success. Through this continuous cycle, not only do you become more competent, but you also boost your confidence as a software engineer. Remember, the key is to keep growing and evolving.
 
 Competence creates confidence and confidence helps you become more competent. This is a positive feedback loop you can leverage to go to the next level in your career, as a software engineer.
